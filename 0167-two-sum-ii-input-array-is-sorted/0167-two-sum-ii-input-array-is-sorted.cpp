@@ -4,7 +4,7 @@ public:
         int n = numbers.size();
 
         int i =0, j =n-1;
-        while(i <= j){
+        while(i < j){ // = can't be allow optimization
             int pairs = numbers[i] + numbers[j];
 
             if(pairs > target) j--;
