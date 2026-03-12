@@ -6,12 +6,10 @@ public:
         unordered_map<int, int> mpp;
 
         for(int i =0; i < n; i++){
-            int val = nums[i];
-            int more = target-val;
+            int more = target-nums[i];
 
-            if(!mpp.empty() && mpp.find(more) != mpp.end()){
-                int idx = mpp[more];
-                return {i, idx};
+            if(mpp.find(more) != mpp.end()){
+                return {i, mpp[more]};
             }
             mpp[nums[i]] = i; 
         }
