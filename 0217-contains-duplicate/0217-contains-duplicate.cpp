@@ -3,13 +3,11 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         int n = nums.size();
 
-        unordered_map<int, int> mpp;
+        unordered_set<int> st;
 
         for(int i =0; i < n; i++){
-            if(mpp[nums[i]] >= 1 ){
-                return true;
-            }
-            mpp[nums[i]]++;
+            if(st.count(nums[i])) return true;
+            st.insert(nums[i]);
         }
 
         
