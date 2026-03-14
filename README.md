@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [3698-split-array-with-minimum-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3698-split-array-with-minimum-difference) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
+| [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Binary Search
 |  |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 ## Counting
@@ -61,4 +64,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 <!---LeetCode Topics End-->
