@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
+| [3698-split-array-with-minimum-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3698-split-array-with-minimum-difference) |
 ## Hash Table
 |  |
 | ------- |
@@ -41,4 +42,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
+## Prefix Sum
+|  |
+| ------- |
+| [3698-split-array-with-minimum-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3698-split-array-with-minimum-difference) |
 <!---LeetCode Topics End-->
