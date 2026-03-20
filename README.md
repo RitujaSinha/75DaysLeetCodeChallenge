@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -109,9 +110,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
+| [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 ## Simulation
 |  |
 | ------- |
+| [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 <!---LeetCode Topics End-->
