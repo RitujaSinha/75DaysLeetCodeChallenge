@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0001-two-sum) |
+| [0057-insert-interval](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0057-insert-interval) |
 | [0135-candy](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0135-candy) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
