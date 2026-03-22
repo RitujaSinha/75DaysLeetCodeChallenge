@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
+| [0796-rotate-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0796-rotate-string) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 ## Prefix Sum
 |  |
@@ -149,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3643-flip-square-submatrix-vertically](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3643-flip-square-submatrix-vertically) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
