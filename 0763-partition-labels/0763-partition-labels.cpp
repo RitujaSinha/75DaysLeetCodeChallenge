@@ -3,25 +3,23 @@ public:
     vector<int> partitionLabels(string s) {
         int n = s.size();
 
-        vector<int> result;
-
-        unordered_map<char, int> mpp;
+        unordered_map<int, int> mpp;
         for(int i =0; i < n; i++){
-            mpp[s[i]] = i;
+            mpp[s[i]] =i;
         }
 
-        for(int i =0; i < n; i++){
-            unordered_map<char, int> m;
-            int maxi = mpp[s[i]];
-            for(int j =i+1; j <=maxi; j++){
-                m[s[j]]++;
+        vector<int> res;
+        int i =0;
+        while(i < n){
+            int maxi = i;
+
+            for(int j =i; j <= maxi; j++){
                 maxi = max(maxi, mpp[s[j]]);
             }
 
-            result.push_back(maxi - i + 1);
-            i = maxi;
-
+            res.push_back(maxi -i+1);
+            i=maxi+1;
         }
-        return result;
+        return res;
     }
 };
