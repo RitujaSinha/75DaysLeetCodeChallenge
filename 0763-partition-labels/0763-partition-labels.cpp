@@ -3,9 +3,10 @@ public:
     vector<int> partitionLabels(string s) {
         int n = s.size();
 
-        unordered_map<int, int> mpp;
+        vector<int> lastOcc(26);
+
         for(int i =0; i < n; i++){
-            mpp[s[i]] =i;
+            lastOcc[s[i]-'a'] = i;
         }
 
         vector<int> res;
@@ -14,7 +15,7 @@ public:
             int maxi = i;
 
             for(int j =i; j <= maxi; j++){
-                maxi = max(maxi, mpp[s[j]]);
+                maxi = max(maxi, lastOcc[s[j]- 'a']);
             }
 
             res.push_back(maxi -i+1);
