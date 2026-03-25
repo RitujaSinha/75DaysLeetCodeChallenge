@@ -1,24 +1,21 @@
 class Solution {
 public:
-    void solve(vector<int>& nums, int target, int i, int currSum, int &count){
-        if(i >= nums.size()){
-        if(currSum == target){
-            count +=1;
-        }
-            return;
+    map<pair<int, int>, int> mp;
+    int solve(vector<int>& nums, int target, int i, int currSum){
+        if(i == nums.size()){
+        return currSum == target;
         }
 
-        // if(currSum > target) return; // cannot have this condition because minus is also there 
+        if(mp.find({i, currSum}) != mp.end()) return mp[{i, currSum}];
 
-        solve(nums, target, i+1, currSum + nums[i], count);
-        solve(nums, target, i+1, currSum - nums[i], count);
+        int takePlus = solve(nums, target, i+1, currSum + nums[i]);
+        int takeMinus = solve(nums, target, i+1, currSum - nums[i]);
 
-        return;
+        return mp[{i, currSum}] = takePlus+ takeMinus;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
-        int count =0;
+        mp.clear();
 
-        solve(nums, target, 0, 0, count);
-        return count;
+        return solve(nums, target, 0, 0);
     }
 };
