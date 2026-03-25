@@ -3,14 +3,14 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
 
-        vector<vector<int>> t= triangle;//Space - O(n^2)
+        vector<int> t= triangle[n-1];//Space - O(n)
 
         for(int row = n-2; row>= 0; row--){
             for(int col =0; col <= row; col++){
-                t[row][col] = t[row][col] + min(t[row+1][col], t[row+1][col+1]);
+                t[col] = triangle[row][col] + min(t[col], t[col+1]);
             }
         }
-        return t[0][0];
+        return t[0];
 
     }
 };
