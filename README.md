@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
+| [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0860-lemonade-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0860-lemonade-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
+| [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
