@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2119-a-number-after-a-double-reversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2119-a-number-after-a-double-reversal) |
+| [3871-count-commas-in-range-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3871-count-commas-in-range-ii) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Divide and Conquer
 |  |
