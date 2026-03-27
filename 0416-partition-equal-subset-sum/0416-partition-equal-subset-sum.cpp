@@ -1,33 +1,27 @@
 class Solution {
 public:
-    int t[201][20001];
-    bool solve(vector<int>& nums, int idx, int x){
-        if(x==0) return true;
+    map<pair<int, int>, int> mp;
+    bool solve(vector<int>& nums, int k, int i){
+        if(k ==0) return true;
 
-        if(idx >= nums.size()) return false;
+        if(i >= nums.size()) return false;
 
-        if(t[idx][x] != -1) return t[idx][x];
+        if(mp.find({i, k}) != mp.end()) return mp[{i, k}];
 
-        bool take = false;
-        if(nums[idx] <= x){
-            take = solve(nums, idx+1, x-nums[idx]);
-        }
+        bool take = solve(nums, k-nums[i], i+1);
+        bool not_take =  solve(nums, k, i+1);
 
-        bool not_take = solve(nums, idx+1, x);
-
-        return t[idx][x] = take || not_take;
+        return  mp[{i, k}] = take || not_take;
     }
-
     bool canPartition(vector<int>& nums) {
         int n = nums.size();
 
-        int S = accumulate(nums.begin(), nums.end(),0);
-        int x = S/2;
+        mp.clear();
+        
+        int S = accumulate(nums.begin(), nums.end(), 0);
 
         if(S % 2 != 0) return false;
 
-        memset(t, -1, sizeof(t));
-
-        return solve(nums, 0, x);
+        return solve(nums, S/2, 0);
     }
 };
