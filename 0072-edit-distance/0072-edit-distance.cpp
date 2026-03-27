@@ -15,16 +15,13 @@ public:
         }
 
         int insert = 1 + solve(s1, s2, i, j+1);
-        int del =1+ solve(s1, s2, i+1, j);
-        int replace = 1+ solve(s1, s2, i+1, j+1);
+        int del = 1 + solve(s1, s2, i+1, j);
+        int replace = 1 + solve(s1, s2, i+1, j+1);
 
         return t[i][j] = min({insert, del, replace});
-
     }
-
     int minDistance(string s1, string s2) {
-        memset(t, -1, sizeof(t));
+        memset(t, -1,sizeof(t));
         return solve(s1, s2, 0, 0);
-
     }
 };
