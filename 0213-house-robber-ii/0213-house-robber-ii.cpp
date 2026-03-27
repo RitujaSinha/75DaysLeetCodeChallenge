@@ -1,29 +1,29 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int i, int n, int maxSum, vector<vector<int>> &dp){
-        if(i >= n ) return maxSum;
+    int t[1001];
+      int solve(vector<int>& nums, int i, int n){
+        if(i >= n) return 0;
 
-        if(dp[i][maxSum] != -1) return dp[i][maxSum];
+        if(t[i] != -1) return t[i];
 
-        int rob = solve(nums, i+2, n, maxSum + nums[i], dp);
-        int skip = solve(nums, i+1, n, maxSum, dp);
+        int steal = nums[i] + solve(nums, i+2, n);
+        int skip = solve(nums, i+1, n);
 
-        return dp[i][maxSum]= max(rob, skip);
-    }
+        return t[i] = max(steal, skip);
+    }   
 
     int rob(vector<int>& nums) {
         int n = nums.size();
 
         if(n==1) return nums[0];
+        if(n == 2) return max(nums[0], nums[1]);
 
-        if(n==2) return max(nums[0], nums[1]);
+         memset(t, -1, sizeof(t));  
+        int rob1 = solve(nums, 0, n-1);
 
-        vector<vector<int>> t1(n+1, vector<int> (100001, -1));
-        int robFirstHouse = solve(nums, 0, n-1, 0, t1);
+        memset(t, -1, sizeof(t));
+        int rob2 = solve(nums, 1, n);
 
-        vector<vector<int>> t2(n+1, vector<int> (100001, -1));
-        int skipFirstHouse = solve(nums, 1, n, 0, t2);
-
-        return max(robFirstHouse, skipFirstHouse);
+        return max(rob1, rob2);
     }
 };
