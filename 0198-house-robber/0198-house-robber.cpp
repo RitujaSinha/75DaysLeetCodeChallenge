@@ -1,22 +1,24 @@
 class Solution {
 public:
-    map<pair<int, int>, int> mp;
-    int solve(vector<int>& nums, int i, int maxSum){
-        if(i >= nums.size()){
-            return maxSum;
-        }
+    int t[101];
+    int solve(vector<int>& nums, int i){
+        if(i >= nums.size()) return 0;
 
-        if(mp.find({i, maxSum}) != mp.end()) return mp[{i, maxSum}] ;
+        if(t[i] != -1) return t[i];
 
-        int rob = solve(nums, i+2, maxSum + nums[i]);
-        int skip = solve(nums, i+1, maxSum);
+        int steal = nums[i] + solve(nums, i+2);
+        int skip = solve(nums, i+1);
 
-        return mp[{i, maxSum}] = max(rob, skip);
+        return t[i] = max(steal, skip);
     }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        mp.clear();
+        memset(t, -1, sizeof(t));
 
-        return solve(nums, 0, 0);
+        if(n==1) return nums[0];
+
+        if(n == 2) return max(nums[0], nums[1]);
+
+        return solve(nums, 0);
     }
 };
