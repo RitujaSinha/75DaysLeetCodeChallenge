@@ -4,23 +4,20 @@ public:
         return s1.size() < s2.size();
     }
 
-    bool predecessor(string &s1, string &s2){
-        int n1 = s1.size();
-        int n2 = s2.size();
+    bool isPred(string &s1, string &s2){
+        int n = s1.size();
+        int m = s2.size();
 
-        if(n1 !=  n2+1) return false;
+        if(n != m+1) return false;
 
-        int i =0, j =0;
-        while(i < n1 && j < n2){
-            if(s1[i] != s2[j]){
-                i++;
-            } else{
-                i++;
+        int i=0, j=0;
+        while(i < n && j < m){
+            if(s1[i] == s2[j]){
                 j++;
             }
+            i++;
         }
-
-        return j == n2;
+        return j == m;
     }
 
     int longestStrChain(vector<string>& words) {
@@ -30,15 +27,16 @@ public:
 
         vector<int> t(n, 1);
 
-        int maxChain =1;
+        int maxL = 1;
+
         for(int i =0; i < n; i++){
             for(int j =0; j < i; j++){
-                if(predecessor(words[i], words[j])){
-                    t[i] = max(t[i] , t[j]+1);
-                    maxChain = max(maxChain, t[i]);
+                if(isPred(words[i], words[j])){
+                    t[i] = max(t[i], t[j]+1);
+                    maxL = max(maxL, t[i]);
                 }
             }
         }
-        return maxChain;
+        return maxL;
     }
 };
