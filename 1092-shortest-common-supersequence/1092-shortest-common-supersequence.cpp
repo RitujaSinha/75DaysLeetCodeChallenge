@@ -18,34 +18,37 @@ public:
             }
         }
 
-        string scss = "";
+        string res = "";
         int i =m, j =n;
 
         while(i > 0 && j > 0){
             if(s1[i-1] == s2[j-1]){
-                scss.push_back(s1[i-1]);
+                res.push_back(s1[i-1]);
                 i--; j--;
-            }else if(t[i-1][j] < t[i][j-1]){
-                scss.push_back(s1[i-1]);
+            }else {
+                if(t[i-1][j] < t[i][j-1]){
+                res.push_back(s1[i-1]);
                 i--;
-            } 
-            else {
-                scss.push_back(s2[j-1]);
+                }else {
+                res.push_back(s2[j-1]);
                 j--;
+                }
             }
         }
 
+        //Remaining s1 
         while(i > 0){
-            scss.push_back(s1[i-1]);
+            res.push_back(s1[i-1]);
             i--;
         }
 
+        //Remaining s2
         while(j > 0){
-            scss.push_back(s2[j-1]);
+            res.push_back(s2[j-1]);
             j--;
         }
 
-        reverse(scss.begin(), scss.end());
-        return scss;
+        reverse(res.begin(), res.end());
+        return res;
     }
 };
