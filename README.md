@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0796-rotate-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0796-rotate-string) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0931-minimum-falling-path-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
