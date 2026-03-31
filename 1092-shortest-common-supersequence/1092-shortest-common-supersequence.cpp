@@ -1,17 +1,19 @@
 class Solution {
 public:
     string shortestCommonSupersequence(string s1, string s2) {
-        int m = s1.size();
+         int m =s1.size();
         int n = s2.size();
+
+        // return solve(s1, s2, m, n);
 
         vector<vector<int>> t(m+1, vector<int> (n+1));
 
         for(int i =0; i < m+1; i++){
             for(int j =0; j < n+1; j++){
-                if(i == 0 || j == 0){
+                if(i ==0 || j ==0){
                     t[i][j] = i+j;
                 } else if(s1[i-1] == s2[j-1]){
-                    t[i][j] = 1+ t[i-1][j-1];
+                    t[i][j] = 1 + t[i-1][j-1];
                 } else{
                     t[i][j] = 1 + min(t[i-1][j], t[i][j-1]);
                 }
@@ -19,35 +21,39 @@ public:
         }
 
         string res = "";
+        int ans =0;
+
         int i =m, j =n;
 
         while(i > 0 && j > 0){
             if(s1[i-1] == s2[j-1]){
                 res.push_back(s1[i-1]);
                 i--; j--;
-            }else {
+            } else{
                 if(t[i-1][j] < t[i][j-1]){
-                res.push_back(s1[i-1]);
-                i--;
-                }else {
-                res.push_back(s2[j-1]);
-                j--;
+                    res.push_back(s1[i-1]);
+                    ans += s1[i-1];
+                    i--;
+                } else{
+                    res.push_back(s2[j-1]);
+                    ans += s2[j-1];
+                    j--;
                 }
             }
         }
 
-        //Remaining s1 
         while(i > 0){
             res.push_back(s1[i-1]);
+            ans += s1[i-1];
             i--;
-        }
-
-        //Remaining s2
+        } 
         while(j > 0){
             res.push_back(s2[j-1]);
+            ans += s2[j-1];
             j--;
         }
 
+        cout << res << endl;
         reverse(res.begin(), res.end());
         return res;
     }
