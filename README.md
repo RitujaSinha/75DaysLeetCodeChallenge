@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2906-construct-product-matrix) |
 | [2966-divide-array-into-arrays-with-max-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2966-divide-array-into-arrays-with-max-difference) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3643-flip-square-submatrix-vertically](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3643-flip-square-submatrix-vertically) |
 | [3698-split-array-with-minimum-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3698-split-array-with-minimum-difference) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3876-construct-uniform-parity-array-ii) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 ## Stack
 |  |
 | ------- |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2906-construct-product-matrix) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3643-flip-square-submatrix-vertically](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3643-flip-square-submatrix-vertically) |
 ## String Matching
 |  |
