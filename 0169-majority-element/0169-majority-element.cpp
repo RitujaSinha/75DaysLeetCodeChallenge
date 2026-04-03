@@ -3,13 +3,14 @@ public:
     int majorityElement(vector<int>& nums) {
         int n = nums.size();
 
-        int freq =0, ans =0;
         for(int i =0; i < n; i++){
-            if(freq == 0) ans = nums[i];
+            int freq =0;
+            for(int j =i; j < n; j++){
+                if(nums[i] == nums[j]) freq++;
 
-            if(ans == nums[i]) freq++;
-            else freq--;
+                if(freq > n/2) return nums[j];
+            }
         }
-        return ans;
+        return 0;
     }
 };
