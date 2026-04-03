@@ -15,27 +15,28 @@ public:
         int cnt =0;
         
         if(head == NULL) return head;
-
         if(head->next == NULL) return NULL;
-        
+
         while(temp != NULL){
             cnt++;
             temp=temp->next;
         }
 
-        int middleNode = cnt/2 + 1;
+        int middleNode = cnt/2;
 
         temp = head;
         while(temp != NULL){
             middleNode--;
-            if(middleNode  == 1) break;
+            if(middleNode  == 0){
+                ListNode* delNode=temp->next;
+
+                temp->next = temp->next->next;
+                delete delNode;
+                break;
+            };
             temp=temp->next;
         }
 
-        ListNode* delNode=temp->next;
-
-        temp->next = temp->next->next;
-        delete delNode;
 
         return head;
     }
