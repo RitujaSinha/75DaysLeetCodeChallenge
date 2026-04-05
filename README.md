@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0120-triangle) |
 | [0135-candy](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0135-candy) |
+| [0136-single-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0191-number-of-1-bits) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
