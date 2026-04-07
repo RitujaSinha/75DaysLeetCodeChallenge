@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0322-coin-change) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Linked List
 |  |
 | ------- |
@@ -348,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -359,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -372,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Merge Sort
 |  |
 | ------- |
