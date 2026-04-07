@@ -13,7 +13,7 @@ public:
     ListNode* reverseList(ListNode* head) {
         stack<int> st;
 
-        ListNode* temp =head;
+        ListNode* temp = head;
         while(temp != NULL){
             st.push(temp->val);
             temp=temp->next;
@@ -23,7 +23,6 @@ public:
         while(temp != NULL){
             temp->val = st.top();
             st.pop();
-
             temp=temp->next;
         }
         return head;
