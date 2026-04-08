@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
+| [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
+| [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
@@ -389,4 +391,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
