@@ -1,60 +1,43 @@
 class Solution {
 public:
-    void bfs(vector<vector<int>>& image, int sr, int sc, int color, 
-    vector<vector<int>> &result){
+    void dfs(vector<vector<int>>& image, int sr, int sc, int color, vector<vector<int>> &res,
+    int initialColor){
         int n = image.size();
         int m = image[0].size();
 
-        queue<pair<int, int>> q;
-        int oldColor = image[sr][sc]; 
+        // int initialColor = image[sr][sc];
+        res[sr][sc] = color;
 
-        q.push({sr, sc});
-
-        result[sr][sc] = color;
-
-        while(!q.empty()){
-            auto it = q.front();
-            q.pop();
-
-            int r = it.first;
-            int c =it.second;
-
-            //up
-            if(r-1 >= 0 && result[r-1][c] == oldColor){
-                result[r-1][c] = color;
-                q.push({r-1,c});
-            }
-
-            //left
-            if(c-1 >=0 && result[r][c-1] == oldColor){
-                result[r][c-1] = color;
-                q.push({r,c-1});
-            }
-
-            //down
-            if(r+1 < n && result[r+1][c] ==oldColor){
-                result[r+1][c] = color;
-                q.push({r+1,c});
-            }
-
-            //right
-            if(c+1 < m && result[r][c+1] == oldColor){
-                result[r][c+1] = color;
-                q.push({r,c+1});
-            }
-
+        //up
+        if(sr-1>=0 && res[sr-1][sc] == initialColor){
+            dfs(image, sr-1, sc, color, res, initialColor);
         }
 
+        //right
+        if(sc+1 < m && res[sr][sc+1] == initialColor){
+            dfs(image, sr, sc+1, color, res, initialColor);
+        }
+
+        //left
+        if(sc-1 >= 0 && res[sr][sc-1] == initialColor){
+            dfs(image, sr, sc-1, color, res, initialColor);
+        }
+
+        //down
+        if(sr+1 < n && res[sr+1][sc] == initialColor){
+            dfs(image, sr+1, sc, color, res, initialColor);
+        }
     }
+
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int n = image.size();
-        int m = image[0].size();
+        
+        vector<vector<int>> res = image;
 
-        if(image[sr][sc] == color) return image; 
+        int initialColor = image[sr][sc];
 
-        vector<vector<int>> result = image;
+        if(initialColor == color) return res;
 
-        bfs(image, sr, sc, color, result);
-        return result;
+        dfs(image, sr, sc, color, res, initialColor);
+        return res;
     }
 };
