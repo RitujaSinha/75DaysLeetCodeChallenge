@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
+| [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0931-minimum-falling-path-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0931-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2906-construct-product-matrix) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
 ## Linked List
 |  |
 | ------- |
