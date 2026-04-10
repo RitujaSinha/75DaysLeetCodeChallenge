@@ -8,6 +8,7 @@ public:
 
         int vis[n][m];
 
+        int cntFresh =0;
         for(int i =0; i < n; i++){
             for(int j =0; j < m; j++){
                 if(grid[i][j] == 2){
@@ -16,12 +17,16 @@ public:
                 } else{
                     vis[i][j] = 0;
                 }
+
+                if(grid[i][j] == 1) cntFresh++;
             }
         }
 
         int time = 0;
         int delRow[] = {-1, 0, 1, 0};
         int delCol[] = {0, 1, 0, -1};
+
+        int cnt =0;
 
         while(!q.empty()){
             int r = q.front().first.first;
@@ -40,17 +45,20 @@ public:
                 && grid[nrow][ncol] == 1){
                     q.push({{nrow, ncol}, t+1});
                     vis[nrow][ncol] =2;
+                    cnt++;
                 }
             }
         }
 
-        for(int i =0; i < n; i++){
-            for(int j =0; j < m; j++){
-                if(grid[i][j] == 1 && vis[i][j]  != 2){
-                    return -1;
-                }
-            }
-        }
+        // for(int i =0; i < n; i++){
+        //     for(int j =0; j < m; j++){
+        //         if(grid[i][j] == 1 && vis[i][j]  != 2){
+        //             return -1;
+        //         }
+        //     }
+        // }
+
+        if(cnt != cntFresh) return -1;
         return time;
     }
 };
