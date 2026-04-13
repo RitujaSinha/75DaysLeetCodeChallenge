@@ -1,29 +1,28 @@
 class Solution {
 public:
-    int t[1001];
-      int solve(vector<int>& nums, int i, int n){
+    int t[101];
+    int solve(vector<int> &nums, int n, int i){
         if(i >= n) return 0;
 
         if(t[i] != -1) return t[i];
 
-        int steal = nums[i] + solve(nums, i+2, n);
-        int skip = solve(nums, i+1, n);
+        int take = nums[i] + solve(nums, n, i+2);
+        int skip = solve(nums, n, i+1);
 
-        return t[i] = max(steal, skip);
-    }   
-
+        return t[i] = max(take, skip); 
+    }
     int rob(vector<int>& nums) {
         int n = nums.size();
 
         if(n==1) return nums[0];
-        if(n == 2) return max(nums[0], nums[1]);
-
-         memset(t, -1, sizeof(t));  
-        int rob1 = solve(nums, 0, n-1);
+        if(n==0) return 0;
 
         memset(t, -1, sizeof(t));
-        int rob2 = solve(nums, 1, n);
+        int take0thHouse =  solve(nums, n-1, 0);
 
-        return max(rob1, rob2);
+        memset(t, -1, sizeof(t));
+        int notTake0thHouse = solve(nums, n, 1);
+
+        return max(take0thHouse, notTake0thHouse);
     }
 };
