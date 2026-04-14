@@ -1,29 +1,27 @@
 class Solution {
-public:
+public:     
+    int solve(vector<vector<int>>& grid, int m , int n, int i, int j, vector<vector<int>> &t){
+        if(i == m-1 && j == n-1){
+            return grid[i][j];
+        }
+
+        if(t[i][j] != -1) return t[i][j];
+
+        if(i == m-1){
+            return t[i][j]= grid[i][j] + solve(grid, m, n, i, j+1, t);
+        } else if(j == n-1){
+            return t[i][j]= grid[i][j] + solve(grid, m, n, i+1, j, t);
+        } else{
+            return t[i][j] =grid[i][j] + min(solve(grid, m, n, i+1, j, t), solve(grid, m, n, i, j+1, t));
+        }
+    }
+
     int minPathSum(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<int>> result(m, vector<int> (n));
+        vector<vector<int>> t(m, vector<int> (n, -1));
 
-        result[0][0] = grid[0][0];
-
-        //filling 1st row 
-        for(int row = 1; row < n; row++){
-            result[0][row] = grid[0][row] + result[0][row-1]; 
-        }   
-
-
-        //filling 1st col
-        for(int col = 1; col < m; col++){
-            result[col][0] = grid[col][0] + result[col-1][0]; 
-        }
-
-        for(int i =1; i < m; i++){
-            for(int j =1; j < n; j++){
-                result[i][j] = grid[i][j] + min(result[i-1][j], result[i][j-1]);
-            }
-        }
-        return result[m-1][n-1];
+        return solve(grid, m, n, 0, 0, t);
     }
 };
