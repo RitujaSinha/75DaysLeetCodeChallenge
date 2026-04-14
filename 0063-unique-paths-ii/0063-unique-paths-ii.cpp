@@ -4,29 +4,25 @@ public:
         int m = obstacleGrid.size();
         int n = obstacleGrid[0].size();
 
-        vector<vector<int>> t(m, vector<int> (n, 1));
+        if(obstacleGrid[0][0] == 1) return 0;
+
+        vector<vector<int>> t(m, vector<int> (n, 0));
 
         //fill first row
         for(int col = 0; col < n; col++){
-            if(col >= 1 && obstacleGrid[0][col-1] == 1){
-                t[0][col] = 0;
-                obstacleGrid[0][col] =1;
-            } else if(obstacleGrid[0][col]==1){
-                t[0][col] = 0;
+            if(obstacleGrid[0][col] == 0){
+                t[0][col] = 1;
             } else{
-                t[0][col]=1;
+                break;
             }
         }
 
         //fill first col
         for(int row = 1; row < m; row++){
-           if(row >= 0 && obstacleGrid[row-1][0] == 1){
-                t[row][0] = 0;
-                obstacleGrid[row][0] = 1;
-            }  else if(obstacleGrid[row][0] == 1){
-                t[row][0] =0;
-            } else{
+            if(obstacleGrid[row][0] == 0){
                 t[row][0] = 1;
+            } else{
+                break;
             }
         }
 
