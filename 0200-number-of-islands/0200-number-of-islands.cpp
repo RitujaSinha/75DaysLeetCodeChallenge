@@ -1,59 +1,36 @@
 class Solution {
 public:
-    void bfs(int row, int col, vector<vector<char>>& grid, vector<vector<int>> &vis){
-        int n = grid.size();
-        int m = grid[0].size();
+    void dfs(int row, int col, vector<vector<char>>& grid){
+        int m = grid.size();
+        int n = grid[0].size();
 
-        vis[row][col] = 1;
-        queue<pair<int, int>> nodes;
+        // vis[row][col] = 1;
+        grid[row][col] = '0'; //Modified the input 
 
-        nodes.push({row, col});
+        int delRow[] = {-1, 0, 1, 0};
+        int delCol[] = {0, 1, 0, -1};
 
-        while(!nodes.empty()){
-            auto it = nodes.front();
-            nodes.pop();
+        for(int i =0; i < 4; i++){
+            int nrow = row + delRow[i];
+            int ncol = col + delCol[i];
 
-            int r = it.first;
-            int c = it.second;
-
-            //left
-            if(c-1>=0 && grid[r][c-1] == '1' && !vis[r][c-1]){
-                vis[r][c-1] = 1;
-                nodes.push({r, c-1});
-            }
-
-            //down
-            if(r+1 < n && grid[r+1][c] =='1' && !vis[r+1][c]){
-                vis[r+1][c] = 1;
-                nodes.push({r+1, c});
-            } 
-
-            //right
-            if(c+1 < m && grid[r][c+1] == '1' && !vis[r][c+1]){
-                vis[r][c+1] = 1;
-                nodes.push({r, c+1});
-            } 
-
-            //up
-            if(r-1 >= 0 && grid[r-1][c] =='1' && !vis[r-1][c]){
-                vis[r-1][c] = 1;
-                nodes.push({r-1, c});
+            if(nrow >= 0 && nrow < m && ncol >=0 && ncol < n && grid[nrow][ncol]=='1'){
+                dfs(nrow, ncol, grid);
             }
         }
     }
-
     int numIslands(vector<vector<char>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int m = grid.size();
+        int n = grid[0].size();
 
-        vector<vector<int>> vis(n, vector<int> (m, 0));
+        // vector<vector<int>> vis(m, vector<int> (n, 0));
 
         int count =0;
-        for(int row = 0; row< n; row++){
-            for(int col =0; col < m; col++){
-                if(grid[row][col] == '1' && vis[row][col] == 0){
+        for(int i =0; i < m; i++){
+            for(int j =0; j < n; j++){
+                if(grid[i][j] == '1'){
                     count++;
-                    bfs(row, col, grid, vis);
+                    dfs(i, j, grid);
                 }
             }
         }
