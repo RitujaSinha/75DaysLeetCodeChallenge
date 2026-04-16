@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
+| [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
+| [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 ## Design
 |  |
 | ------- |
