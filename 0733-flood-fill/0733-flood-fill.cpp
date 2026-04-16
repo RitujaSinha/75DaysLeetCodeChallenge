@@ -1,43 +1,36 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& image, int sr, int sc, int color, vector<vector<int>> &res,
-    int initialColor){
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int n = image.size();
         int m = image[0].size();
+        vector<vector<int>> vis(n, vector<int> (m, 0));
 
-        // int initialColor = image[sr][sc];
-        res[sr][sc] = color;
-
-        //up
-        if(sr-1>=0 && res[sr-1][sc] == initialColor){
-            dfs(image, sr-1, sc, color, res, initialColor);
-        }
-
-        //right
-        if(sc+1 < m && res[sr][sc+1] == initialColor){
-            dfs(image, sr, sc+1, color, res, initialColor);
-        }
-
-        //left
-        if(sc-1 >= 0 && res[sr][sc-1] == initialColor){
-            dfs(image, sr, sc-1, color, res, initialColor);
-        }
-
-        //down
-        if(sr+1 < n && res[sr+1][sc] == initialColor){
-            dfs(image, sr+1, sc, color, res, initialColor);
-        }
-    }
-
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        
-        vector<vector<int>> res = image;
+        queue<pair<int, int>> q;
+        q.push({sr, sc});
+        vis[sr][sc]=1;
 
         int initialColor = image[sr][sc];
 
-        if(initialColor == color) return res;
+        while(!q.empty()){
+            int row = q.front().first;
+            int col = q.front().second;
 
-        dfs(image, sr, sc, color, res, initialColor);
-        return res;
+            q.pop();
+
+            int delRow[] ={-1, 0, 1, 0};
+            int delCol[] ={0, 1, 0, -1};
+
+            for(int i =0; i < 4; i++){
+                int nrow = row + delRow[i];
+                int ncol = col + delCol[i];
+
+                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && image[nrow][ncol] == initialColor && vis[nrow][ncol] == 0){
+                    vis[nrow][ncol] =1;
+                    q.push({nrow, ncol});
+                }
+            }
+            image[row][col] = color;
+        }
+        return image;
     }
 };
