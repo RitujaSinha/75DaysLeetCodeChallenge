@@ -372,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 ## Binary Tree
@@ -478,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 ## Graph Theory
 |  |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1791-find-center-of-star-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1791-find-center-of-star-graph) |
 ## Design
