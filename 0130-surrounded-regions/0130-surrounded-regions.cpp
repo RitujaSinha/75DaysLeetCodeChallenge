@@ -1,67 +1,61 @@
 class Solution {
 public:
-    void dfs(int row, int col, vector<vector<char>>& board, vector<vector<int>> &vis){
-        int n = board.size();
-        int m = board[0].size();
+    void dfs(int row, int col, vector<vector<char>>& board, vector<vector<int>>& vis){
+        int m = board.size();
+        int n = board[0].size();
 
         vis[row][col] = 1;
 
-        int delRow[] = {-1, 0, +1, 0};
-        int delCol[] = {0, +1, 0, -1};
+        int delRow[] = {-1, 0, 1, 0};
+        int delCol[] = {0, 1, 0, -1};
 
         for(int i =0; i < 4; i++){
-            int nrow =row +delRow[i];
-            int ncol =col+delCol[i];
+            
+            int nrow = row + delRow[i];
+            int ncol = col + delCol[i];
 
-            if(nrow>=0 && nrow<n && ncol >=0 && ncol < m && vis[nrow][ncol] == 0
-            && board[nrow][ncol]=='O'){
+            if(nrow >=0 && nrow < m && ncol >= 0 && ncol < n && board[nrow][ncol] == 'O' &&
+            !vis[nrow][ncol]){
                 dfs(nrow, ncol, board, vis);
             }
         }
     }
-
     void solve(vector<vector<char>>& board) {
-        int n = board.size();
-        int m = board[0].size();
+        int m = board.size();
+        int n = board[0].size();
 
-        vector<vector<int>> vis(n, vector<int> (m , 0));
+        vector<vector<int>> vis(m, vector<int> (n, 0));
 
-        int srow =0, erow = n-1, scol =0, ecol =m-1;
-        //upper boundary
-        for(int i =scol; i <= ecol; i++){
-            if(board[srow][i] == 'O' && vis[srow][i] == 0){
-                dfs(srow, i, board, vis);
+        for(int j =0; j < n; j++){
+
+            if(!vis[0][j] && board[0][j] == 'O'){
+                dfs(0, j, board, vis);
             }
-        }
 
-        //right boundary
-        for(int i= srow+1; i <= erow; i++){
-            if(board[i][ecol] == 'O' && vis[i][ecol] == 0){
-                dfs(i, ecol, board, vis);
-            }
-        }
-
-        //bottom boundary
-        for(int i = ecol-1; i>= scol; i--){
-            if(board[erow][i] == 'O' && vis[erow][i] == 0){
-                dfs(erow, i, board, vis);
-            }
-        }
-
-        //down boundary
-        for(int i= erow-1; i >= srow+1; i--){
-            if(board[i][scol] == 'O' && vis[i][scol] == 0){
-                dfs(i, scol, board, vis);
+            if(!vis[m-1][j] && board[m-1][j] == 'O'){
+                dfs(m-1, j, board, vis);
             }
         }
 
 
-        for(int i =0; i < n; i++){
-            for(int j =0; j < m; j++){
-                if(vis[i][j] == 0 && board[i][j] == 'O'){
+        for(int i =0; i < m; i++){
+
+            if(!vis[i][0] && board[i][0] == 'O'){
+                dfs(i, 0, board, vis);
+            }
+
+            if(!vis[i][n-1] && board[i][n-1] == 'O'){
+                dfs(i,n-1, board, vis);
+            }
+        }
+
+        for(int i=0; i < m; i++){
+            for(int j =0; j < n; j++){
+                if(board[i][j] == 'O' && vis[i][j] == 0){
                     board[i][j] = 'X';
                 }
             }
         }
+        // return board;
     }
 };
