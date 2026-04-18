@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1092-shortest-common-supersequence) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
@@ -502,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
@@ -530,8 +534,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
