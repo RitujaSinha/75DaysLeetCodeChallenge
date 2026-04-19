@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1765-map-of-highest-peak](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1765-map-of-highest-peak) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1848-minimum-distance-to-the-target-element) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [3643-flip-square-submatrix-vertically](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3643-flip-square-submatrix-vertically) |
 ## Binary Search
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 ## Sorting
 |  |
 | ------- |
