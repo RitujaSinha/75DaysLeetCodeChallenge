@@ -14,9 +14,9 @@ public:
                 char ch = st.top();
                 st.pop();
 
-                if((s[i]== '}' && ch != '{') || 
+                if((s[i] == '}' && ch != '{') || 
                 (s[i] == ']' && ch != '[') ||
-                s[i] == ')' && ch != '(' ) return false;
+                (s[i] == ')' && ch != '(') ) return false;
             }
         }
         return st.empty();
