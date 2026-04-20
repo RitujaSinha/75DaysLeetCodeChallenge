@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2433-find-the-original-array-of-prefix-xor) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2966-divide-array-into-arrays-with-max-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2966-divide-array-into-arrays-with-max-difference) |
 ## Counting Sort
