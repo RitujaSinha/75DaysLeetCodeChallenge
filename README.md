@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
 | [0035-search-insert-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0142-linked-list-cycle-ii) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0148-sort-list) |
