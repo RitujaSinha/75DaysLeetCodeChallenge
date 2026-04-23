@@ -1,18 +1,18 @@
 class Solution {
 public:
     int climbStairs(int n) {
-        
-        vector<int> t(n+1, 0);
 
         if(n == 1 || n== 2) return n;
 
-        t[0] = 0;
-        t[1] = 1;
-        t[2] = 2;
+        int prevPrev = 1;
+        int prev = 2;
 
         for(int i = 3; i <=n; i++){
-            t[i] = t[i-1] + t[i-2];
+            int cur = prev + prevPrev;
+
+            prevPrev = prev;
+            prev= cur;
         }
-        return t[n];
+        return prev;
     }
 };
