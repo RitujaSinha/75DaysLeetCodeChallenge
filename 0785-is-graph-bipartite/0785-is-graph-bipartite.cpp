@@ -1,19 +1,19 @@
 class Solution {
-private: 
-    bool bfs(int start, int V, vector<vector<int>>& graph, int color[]){
-        queue<int> q;
-        q.push(start);
+public:
+    bool bfs(int start, vector<int> &color, vector<vector<int>>& graph){
+        queue<pair<int, int>> q;
+        q.push({start, 0});
+        color[start] = 0;
 
-        color[start]=0;
-        
-        while(!q.empty()){
-            int node = q.front();
+         while(!q.empty()){
+            int node = q.front().first;
+            int col = q.front().second;
             q.pop();
 
-            for(auto it: graph[node]){
+            for(auto &it: graph[node]){
                 if(color[it] == -1){
-                    color[it] = !color[node];
-                    q.push(it);
+                    color[it] = !col;
+                    q.push({it, !col});
                 } else if(color[it] == color[node]){
                     return false;
                 }
@@ -21,18 +21,14 @@ private:
         }
         return true;
     }
-
-public:
     bool isBipartite(vector<vector<int>>& graph) {
-        int V = graph.size();
+        int n = graph.size();
 
-        int color[V];
-        for(int i=0; i < V; i++) color[i] =-1;
+        vector<int> color(n, -1);
 
-        //disconnected componenets
-        for(int i=0; i < V; i++){
+        for(int i =0; i < n; i++){
             if(color[i] == -1){
-                if(bfs(i, V, graph, color) == false) return false;
+                if(bfs(i, color, graph) == false) return false;
             }
         }
         return true;
