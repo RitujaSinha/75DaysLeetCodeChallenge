@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1765-map-of-highest-peak](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1765-map-of-highest-peak) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1848-minimum-distance-to-the-target-element) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1162-as-far-from-land-as-possible](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1162-as-far-from-land-as-possible) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 ## Stack
 |  |
