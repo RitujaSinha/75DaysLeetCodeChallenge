@@ -3,16 +3,17 @@ public:
     int rob(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> t(n+1, 0);
-        t[1] = nums[0];
+        int prev = nums[0];
+        int prevPrev = 0;
 
         for(int i = 2; i <= n; i++){
             
-            int skip = t[i-1];
-            int robb = t[i-2] + nums[i-1];
+            int curr = max({prev, prevPrev + nums[i-1]});
 
-            t[i] = max(skip, robb);
+            prevPrev=prev;
+            prev =curr;
+
         }
-        return t[n];
+        return prev;
     }
 };
