@@ -10,15 +10,17 @@ public:
         vector<int> dist(n+1, INT_MAX);
         dist[0] = 0;
 
-        queue<pair<int, int>> q;
-        q.push({k, 0});
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>> q;
+        q.push({0, k});
         dist[k] = 0;
 
         while(!q.empty()){
-            int node = q.front().first;
-            int d = q.front().second;
+            int d = q.top().first;
+            int node = q.top().second;
 
             q.pop();
+
+            if(d > dist[node]) continue; //No need to calculate if greater
 
             for(auto &it: v[node]){
                 int nextNode = it.first;
@@ -26,7 +28,7 @@ public:
 
                 if(d + w < dist[nextNode]){
                     dist[nextNode] = d+w;
-                    q.push({nextNode, d+w});
+                    q.push({d+w, nextNode});
                 }
             }
         }
