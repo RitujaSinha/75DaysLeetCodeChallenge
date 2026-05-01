@@ -1,28 +1,36 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int i, int n, vector<int> &t){
-        if(i >= n) return 0;
-
-        if(t[i] != -1) return t[i];
-
-        int robb = nums[i] + solve(nums, i+2, n, t);
-        int skip = solve(nums, i+1, n, t);
-
-
-        return t[i] = max(skip, robb);
-    }
     int rob(vector<int>& nums) {
-        int n =nums.size();
+        int n = nums.size();
 
-        if(n==1) return nums[0];
-        if(n == 2) return max(nums[0], nums[1]);
+        if(n == 1) return nums[0];
+        if(n ==2) return max(nums[0], nums[1]);
 
-        vector<int> dp1(n, -1);
-        int zeroth = solve(nums, 0, n-1, dp1);
+        vector<int> t(n+1, 0);
 
-        vector<int> dp2(n, -1);
-        int first = solve(nums, 1, n, dp2);
+        t[0] = 0;
+        for(int i =1; i <= n-1; i++){
+            int skip = t[i-1];
+            int robb = nums[i-1] + (i-2>= 0 ? t[i-2] : 0);
 
-        return max(first, zeroth);
+            t[i] = max(skip, robb);
+        }
+
+        int res1 = t[n-1];
+
+        t.clear();
+        t[0] = 0;
+        t[1] = 0;
+
+        for(int i = 2; i <= n; i++){
+            int skip = t[i-1];
+            int robb = nums[i-1] + t[i-2];
+
+            t[i] = max(skip, robb);
+        }
+
+        int res2 = t[n];
+
+        return max(res1, res2);
     }
 };
