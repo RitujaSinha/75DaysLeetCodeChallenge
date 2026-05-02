@@ -3,38 +3,41 @@ public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int n = grid.size();
 
+        if(grid[0][0] == 1 || grid[n-1][n-1] == 1) return -1;
+
         vector<vector<int>> vis(n, vector<int> (n, 0));
+        vector<vector<int>> dist(n, vector<int> (n, INT_MAX));
 
-        if(grid[0][0] == 1 || grid[n-1][n-1]) return -1;
-
-        queue<pair<pair<int, int>,int>> q;
-        q.push({{0, 0},1});  
+        queue<pair<pair<int, int>, int>> q;
+        q.push({{0, 0}, 1});
         vis[0][0] = 1;
-
-        int delrow[] = {0,1, 1, 1, 0, -1, -1, -1};
-        int delcol[] = {-1, -1, 0, 1, 1, 1, 0, -1};
+        dist[0][0] = 1;
 
         while(!q.empty()){
             int r = q.front().first.first;
-            int c = q.front().first.second;
-            
-            int dist = q.front().second;
+            int c = q.front().first.second; 
+            int len = q.front().second;
             q.pop();
 
-            if(r == n-1 && c == n-1) return dist;
-            
+            if(r == n-1 && c == n-1) return dist[n-1][n-1];
+
+            int delrow[] = {-1, -1, 0, 1, 1, 1, 0, -1};
+            int delcol[] = {0, 1, 1, 1, 0, -1, -1, -1};
+
             for(int i =0; i < 8; i++){
                 int nrow = r + delrow[i];
                 int ncol = c + delcol[i];
 
-                if(nrow >= 0 && nrow < n && ncol >=0 && ncol < n && grid[nrow][ncol] == 0 
+                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < n && grid[nrow][ncol] == 0
                 && !vis[nrow][ncol]){
-                    vis[nrow][ncol] =1;
-                    q.push({{nrow, ncol}, dist+1});
+                    if(dist[nrow][ncol] > len+1){
+                        q.push({{nrow, ncol}, len+1});
+                        vis[nrow][ncol] = 1;
+                        dist[nrow][ncol] = len+1;
+                    }
                 }
             }
-            
-        }  
+        }
         return -1;
     }
 };
