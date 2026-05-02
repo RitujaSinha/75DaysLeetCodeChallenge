@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0287-find-the-duplicate-number) |
+| [0344-reverse-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0127-word-ladder](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
+| [0344-reverse-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
