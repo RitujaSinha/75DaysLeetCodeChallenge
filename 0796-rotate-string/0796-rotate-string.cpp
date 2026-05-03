@@ -3,16 +3,12 @@ public:
     bool rotateString(string s, string goal) {
         int n = s.size();
 
-        string s1= s;
-
-        while(n--){
-            char ch = s1[0];
-
-            s1.erase(s1.begin()+0);
-
-            s1.push_back(ch);
-
-            if(s1 == goal) return true;
+        if(s == goal) return true;
+        for(int i = 0; i < n; i++){
+            char c = s[0];
+            s.erase(s.begin()+0);
+            s.push_back(c);
+            if(s==goal) return true;
         }
         return false;
     }
