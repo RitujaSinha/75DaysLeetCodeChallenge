@@ -367,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0657-robot-return-to-origin) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2460-apply-operations-to-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2460-apply-operations-to-an-array) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## Matrix
@@ -472,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Recursion
 |  |
