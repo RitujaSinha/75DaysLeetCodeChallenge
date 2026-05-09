@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1765-map-of-highest-peak](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1765-map-of-highest-peak) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1848-minimum-distance-to-the-target-element) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 ## Sorting
 |  |
