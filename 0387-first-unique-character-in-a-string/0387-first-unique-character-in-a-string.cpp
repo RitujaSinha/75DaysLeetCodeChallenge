@@ -3,13 +3,13 @@ public:
     int firstUniqChar(string s) {
         int n = s.size();
 
-        unordered_map<char, int> mp;
+        vector<char> freq(26, 0);
         for(int i  =0; i < n; i++){
-            mp[s[i]]++;
+            freq[s[i]-'a']++;
         }
 
         for(int i =0; i < n; i++){
-            if(mp[s[i]]==1){
+            if(freq[s[i]-'a']==1){
                 return i;
             }
         }
