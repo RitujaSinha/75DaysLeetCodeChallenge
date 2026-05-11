@@ -16,7 +16,7 @@ public:
                 return mid;
             }
 
-            if(nums[mid] >= nums[mid-1]){
+            if(nums[mid] < nums[mid+1]){
                 st = mid+1;
             } else{
                 end=mid-1;
