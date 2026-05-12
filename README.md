@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
@@ -339,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0367-valid-perfect-square](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0396-rotate-function) |
