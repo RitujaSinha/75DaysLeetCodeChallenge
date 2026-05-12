@@ -1,27 +1,27 @@
 class Solution {
 public:
-    void dfs(int start, vector<vector<int>>& rooms, vector<int> &vis){
-        vis[start]=1;
-
-        for(auto it: rooms[start]){
-            if(!vis[it]){
-                dfs(it, rooms, vis);
-            }
-        }
-    }
-
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         int n = rooms.size();
-        
+
         vector<int> vis(n, 0);
 
-        dfs(0, rooms, vis); 
+        queue<int> q;
+        q.push(0);
+        vis[0] = 1;
 
-        for(int i =0; i < vis.size(); i++){
-            if(vis[i] == 0){
-                return false;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+
+            for(auto &it: rooms[node]){
+                if(!vis[it]){
+                    q.push(it);
+                    vis[it] = 1;
+                }
             }
         }
-        return true;
+
+        int cnt = count(vis.begin(), vis.end(), 1);
+        return cnt == n;
     }
 };
