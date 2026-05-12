@@ -3,16 +3,16 @@ public:
     int sumOfUnique(vector<int>& nums) {
         int n = nums.size();
 
-        unordered_map<int, int> m;
+        vector<int> freq(101, 0);
 
         for(int &n: nums){
-            m[n]++;
+            freq[n]++;
         }
 
         int sum = 0;
-        for(auto it: m){
-            if(it.second == 1){
-                sum += it.first;
+        for(int i = 1; i <= 100; i++){
+            if(freq[i] == 1){
+                sum+=i;
             }
         }
         return sum;
