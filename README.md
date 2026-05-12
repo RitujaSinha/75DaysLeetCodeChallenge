@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
+| [1029-two-city-scheduling](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1029-two-city-scheduling) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1162-as-far-from-land-as-possible](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1162-as-far-from-land-as-possible) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1029-two-city-scheduling](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1029-two-city-scheduling) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0948-bag-of-tokens](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0948-bag-of-tokens) |
+| [1029-two-city-scheduling](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1029-two-city-scheduling) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
