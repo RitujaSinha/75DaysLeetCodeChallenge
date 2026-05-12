@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2965-find-missing-and-repeated-values) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2833-furthest-point-from-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2833-furthest-point-from-origin) |
 ## String
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2833-furthest-point-from-origin) |
@@ -629,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Monotonic Stack
 |  |
 | ------- |
