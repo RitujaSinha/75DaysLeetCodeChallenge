@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0061-rotate-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0142-linked-list-cycle-ii) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0127-word-ladder](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0127-word-ladder) |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0796-rotate-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0796-rotate-string) |
 ## Memoization
 |  |
