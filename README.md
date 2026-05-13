@@ -538,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Linked List
 |  |
@@ -620,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
+| [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -666,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
+| [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
 | ------- |
@@ -681,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1791-find-center-of-star-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1791-find-center-of-star-graph) |
+| [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Design
 |  |
