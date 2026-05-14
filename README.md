@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
+| [0485-max-consecutive-ones](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0540-single-element-in-a-sorted-array) |
