@@ -8,7 +8,7 @@ public:
         string res="";
         while(i < n1 && j < n2){
             res+=word1[i];
-            res+=word2[i];
+            res+=word2[j];
             i++; j++;
         }
 
