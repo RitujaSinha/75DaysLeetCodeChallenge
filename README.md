@@ -560,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1162-as-far-from-land-as-possible](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1162-as-far-from-land-as-possible) |
+| [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
@@ -616,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0700-search-in-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -651,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
+| [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
@@ -675,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0700-search-in-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Merge Sort
 |  |
