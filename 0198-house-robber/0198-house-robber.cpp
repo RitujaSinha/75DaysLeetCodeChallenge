@@ -1,22 +1,20 @@
 class Solution {
 public:
-    int solve(int i, vector<int> &nums, vector<int> &dp){
-        if(i >= nums.size()){
-            return 0; //no house left
-        }
-
-        if(dp[i] != -1) return dp[i];
-
-        int robb = nums[i] + solve(i+2, nums, dp);
-        int skip = solve(i+1, nums, dp);
-
-        return dp[i] = max(robb, skip);
-    }
     int rob(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> dp(n, -1);
+        vector<int> dp(n+1, -1);
 
-        return solve(0, nums, dp);
+        dp[0] = 0; //no house -> no money
+        dp[1] = nums[0]; //just rob the first
+
+        for(int i = 2; i <= n; i++){
+
+            int robb = nums[i-1] + dp[i-2];
+            int skip = dp[i-1];
+
+            dp[i] = max(robb, skip);
+        }
+        return dp[n];
     }
 };
