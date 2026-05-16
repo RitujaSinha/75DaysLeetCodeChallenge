@@ -3,41 +3,31 @@ public:
     int numRescueBoats(vector<int>& people, int limit) {
         int n = people.size();
 
-        unordered_map<int, int> mpp;
-        for(int i =0; i < n; i++){
-            mpp[people[i]]++;
-        }
+        sort(people.begin(), people.end());
 
-        sort(people.rbegin(), people.rend());
+        int boat = 0;
 
-        int boats =0;
-        for(int i =0; i < n; i++){
-            if(mpp.find(people[i]) != mpp.end()){
-            if(people[i] <= limit){
-                boats++;
-                mpp[people[i]]--;
-                if(mpp[people[i]] <= 0) mpp.erase(people[i]);
-                int more = limit - people[i];
-
-                // if(more > 0){
-                //     if(mpp.find(more) != mpp.end()){
-                //         mpp[more]--;
-                //         if(mpp[more] <= 0) mpp.erase(more);
-                //     }  
-                // }
-
-                while(more!=0){
-                    if(mpp.find(more) != mpp.end()){
-                        mpp[more]--;
-                        if(mpp[more] <= 0) mpp.erase(more);
-                        break;
-                    } 
-                    more--;
-                }
-
-            }
+        int i = 0, j = n-1;
+        while(i <= j){
+            if(((people[i] + people[j]) <= limit) && i != j){
+                boat++;
+                i++; j--;
+            } else if((people[j] > people[i]) && people[j] <= limit){
+                boat++;
+                j--;
+            } else if((people[i] > people[j]) && people[i] <= limit){
+                boat++;
+                i++;
+            } else if(i==j){
+                boat++;
+                i++;
+                j--;
+            } else{
+                boat+=2;
+                i++;
+                j--;
             }
         }
-        return boats;
+        return boat;
     }
 };
