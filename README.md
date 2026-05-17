@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
+| [0258-add-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0258-add-digits) |
 | [0367-valid-perfect-square](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0396-rotate-function) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0258-add-digits) |
 | [0657-robot-return-to-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0657-robot-return-to-origin) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
@@ -784,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0258-add-digits) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Queue
