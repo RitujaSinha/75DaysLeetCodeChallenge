@@ -1,36 +1,38 @@
 class Solution {
 public:
     int minDeletions(string s) {
-        int n =s.size();
+        int n = s.size();
+
+        unordered_map<char, int> mpp;
+        for(char &ch: s){
+            mpp[ch]++;
+        }
+
+        if(mpp.size() == n) return n-1;
+
+        sort(s.begin(), s.end());
 
         unordered_map<int, int> m;
-        for(int i =0; i<n; i++){
-            m[s[i]]++;
-        }
 
-        vector<int> temp;
-        for(auto &it: m){
-            temp.push_back(it.second);
-        }
+        int op =0;
 
-        sort(temp.begin(), temp.end());
-        unordered_map<int, int> mp;
-
-        int op=0;
-        mp[temp[0]]++;
-        for(int i=1; i < temp.size(); i++){
-            if(mp.find(temp[i]) != mp.end()){
-                int val = temp[i];
-                val--;
-                op++;
-                while(val > 0 && mp.find(val) != mp.end()){
-                    val--;
+        int cnt = 1;
+        for(int i = 1; i< n; i++){
+            if(s[i] == s[i-1]){
+                cnt++;
+            } else{
+                while(cnt > 0 && m.find(cnt) != m.end()){
+                    cnt--;
                     op++;
                 }
-                mp[val]++;
-                continue;
+                m[cnt] = 1;
+                cnt = 1;
             }
-            mp[temp[i]]++;
+        }
+
+        while(cnt > 0 && m.find(cnt) != m.end()){
+            cnt--;
+            op++;
         }
         return op;
     }
