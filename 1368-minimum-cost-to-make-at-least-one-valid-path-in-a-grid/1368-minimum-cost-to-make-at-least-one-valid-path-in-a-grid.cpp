@@ -4,42 +4,45 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<int>> dist(m, vector<int> (n, INT_MAX));
+        // priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        // pq.push({0, 0});
+        priority_queue<pair<int, pair<int,int>>, vector<pair<int, pair<int,int>>>, 
+        greater<pair<int, pair<int,int>>>> pq;
 
-        priority_queue<pair<pair<int, int>, int>, vector<pair<pair<int, int>, int>>, greater<pair<pair<int, int>, int>>> pq;
-        pq.push({{0, 0}, 0}); //{{row, col}, cost}
-        dist[0][0] = 0;
+        pq.push({0, {0, 0}});
 
-        int delrow[] = {0, 0, 1, -1}; //right, left, lower, upper
+        vector<vector<int>> cost(m, vector<int> (n, INT_MAX));   
+        cost[0][0] = 0;
+
+        int delrow[] = {0, 0, 1, -1};
         int delcol[] = {1, -1, 0, 0};
 
-        int cost  = 0;
         while(!pq.empty()){
-            int row = pq.top().first.first;
-            int col = pq.top().first.second;
-            int cost = pq.top().second;
+            int c = pq.top().first;
+            int row = pq.top().second.first;
+            int col = pq.top().second.second;
             pq.pop();
 
             for(int i = 0; i < 4; i++){
                 int nrow = row + delrow[i];
                 int ncol = col + delcol[i];
 
-                if(nrow >= 0 && ncol >= 0 && nrow < m && ncol < n){
+                if(nrow >= 0 && nrow < m && ncol >= 0 && ncol < n){
 
                     int newCost = 0;
-                    if(grid[row][col] == i+1){ //same direction
-                        newCost = cost + 0;
+                    if(grid[row][col] != i+1){// different direction
+                        newCost = c + 1;
                     } else{
-                        newCost = cost + 1;
+                         newCost = c + 0;
                     }
 
-                    if(newCost < dist[nrow][ncol]){
-                        dist[nrow][ncol] = newCost;
-                        pq.push({{nrow, ncol}, newCost});
+                    if(newCost < cost[nrow][ncol]){
+                        cost[nrow][ncol] = newCost;
+                        pq.push({newCost, {nrow, ncol}});
                     }
                 }
             }
         }
-        return dist[m-1][n-1];
+        return cost[m-1][n-1];
     }
 };
