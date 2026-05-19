@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1768-merge-strings-alternately) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2833-furthest-point-from-origin) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
@@ -422,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## Bit Manipulation
 |  |
@@ -816,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 ## Bucket Sort
 |  |
@@ -843,6 +848,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 ## Brainteaser
 |  |
 | ------- |
