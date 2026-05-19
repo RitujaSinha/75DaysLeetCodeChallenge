@@ -8,28 +8,28 @@ public:
         sort(nums2.begin(), nums2.end());
 
         vector<int> res;
-        if(n1 == 1 && n2 == 1 && nums1[0] ==nums2[0]) {
-            res.push_back(nums1[0]);
-            return res;
-        }
+        // if(n1 == 1 && n2 == 1 && nums1[0] ==nums2[0]) {
+        //     res.push_back(nums1[0]);
+        //     return res;
+        // }
 
-        if(n2 == 1){
-            for(int i = 0; i < n1; i++){
-                if(nums1[i] == nums2[0]){
-                    res.push_back(nums2[0]);
-                    return res;
-                }
-            }
-        }
+        // if(n2 == 1){
+        //     for(int i = 0; i < n1; i++){
+        //         if(nums1[i] == nums2[0]){
+        //             res.push_back(nums2[0]);
+        //             return res;
+        //         }
+        //     }
+        // }
 
-         if(n1 == 1){
-            for(int i = 0; i < n2; i++){
-                if(nums2[i] == nums1[0]){
-                    res.push_back(nums1[0]);
-                    return res;
-                }
-            }
-        }
+        //  if(n1 == 1){
+        //     for(int i = 0; i < n2; i++){
+        //         if(nums2[i] == nums1[0]){
+        //             res.push_back(nums1[0]);
+        //             return res;
+        //         }
+        //     }
+        // }
 
         int i = 0, j = 0;
         while(i < n1 && j < n2){
