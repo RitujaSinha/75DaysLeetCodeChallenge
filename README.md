@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0846-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0646-maximum-length-of-pair-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0646-maximum-length-of-pair-chain) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0846-hand-of-straights) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0796-rotate-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0844-backspace-string-compare) |
@@ -616,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
@@ -718,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
@@ -780,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
