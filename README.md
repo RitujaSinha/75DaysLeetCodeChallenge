@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0287-find-the-duplicate-number) |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
 | [2640-find-the-score-of-all-prefixes-of-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2640-find-the-score-of-all-prefixes-of-an-array) |
 | [2906-construct-product-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2906-construct-product-matrix) |
@@ -784,6 +787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Monotonic Stack
 |  |
