@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
