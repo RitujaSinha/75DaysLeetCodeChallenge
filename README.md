@@ -683,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2685-count-the-number-of-complete-components) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Linked List
 |  |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
 | ------- |
@@ -835,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
 |  |
 | ------- |
@@ -855,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1791-find-center-of-star-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2685-count-the-number-of-complete-components](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2685-count-the-number-of-complete-components) |
 ## Design
 |  |
 | ------- |
