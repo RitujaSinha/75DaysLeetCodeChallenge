@@ -4,30 +4,26 @@ public:
         int n = arr.size();
 
         vector<int> vis(n, 0);
-
         queue<int> q;
-        q.push(start);
-        vis[start] = 1;
-
+        q.push(start); //index, jumps
+        vis[start] =1;
+        
         while(!q.empty()){
-            int idx = q.front();
+            int index = q.front();
             q.pop();
 
-            // if(idx-arr[idx] >= 0 && vis[idx - arr[idx]] == 1) return true;
-            // if(idx+arr[idx] < n && vis[idx + arr[idx]] == 1) return true;
-            if(arr[idx] == 0) return true;
+            if(arr[index] == 0) return true;
 
-            if(idx-arr[idx] >= 0 && !vis[idx-arr[idx]]){
-                q.push(idx-arr[idx]);
-                vis[idx-arr[idx]] =1;
-            } 
+            if(index + arr[index] < n && !vis[index+arr[index]]){
+                q.push(index + arr[index]);
+                vis[index + arr[index]] =1;
+            }
 
-            if(idx+arr[idx] < n && !vis[idx+arr[idx]]){
-                q.push(idx+arr[idx]);
-                vis[idx+arr[idx]]=1;
+            if(index - arr[index] >= 0 && !vis[index-arr[index]]){
+                q.push(index - arr[index]);
+                vis[index - arr[index]] =1;
             }
         }
-
         return false;
     }
 };
