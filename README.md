@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
 | [0763-partition-labels](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0846-hand-of-straights) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1010-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1010-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -810,6 +811,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
 | [0934-shortest-bridge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0934-shortest-bridge) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
@@ -874,6 +876,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0827-making-a-large-island) |
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -894,6 +897,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
