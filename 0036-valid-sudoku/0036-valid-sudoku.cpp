@@ -1,31 +1,28 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        
-        for(int row = 0; row < 9; row++){
-            for(int col =0; col < 9; col++){
-                if(board[row][col] == '.') continue;
+        int m = board.size();
+        int n = board[0].size();
 
-                //horizontal
-                for(int j = 0; j < 9; j++){
-                    if(j != col && board[row][j] == board[row][col]){
-                        return false;
-                    }
+        for(int i=0; i < m; i++){
+            for(int j =0; j < n; j++){
+                if(board[i][j] == '.') continue;
+
+
+                for(int col = 0; col< n; col++){
+                    if(col != j && board[i][col] == board[i][j]) return false;
                 }
 
-                //vertical
-                for(int i = 0; i < 9; i++){
-                    if(i != row && board[i][col] == board[row][col]){
-                        return false;
-                    }
+                for(int row = 0; row < m; row++){
+                    if(row != i && board[row][j] == board[i][j]) return false;
                 }
 
-                int sr = (row/3)*3;
-                int sc = (col/3)*3;
+                int sr = (i/3)*3;
+                int sc = (j/3)*3;
 
-                for(int i =sr; i<=sr+2; i++){
-                    for(int j = sc; j <= sc+2; j++){
-                        if((i != row || j != col) && board[i][j] == board[row][col]){
+                for(int row = sr; row < sr+3; row++){
+                    for(int col = sc; col < sc+3; col++){
+                        if((row != i || col != j) && board[row][col] == board[i][j]){
                             return false;
                         }
                     }
