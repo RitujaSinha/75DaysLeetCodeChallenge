@@ -3,9 +3,9 @@ public:
     int minimumCost(vector<int>& cost) {
         int n = cost.size();
 
-        if(n <= 2){
-            return accumulate(cost.begin(), cost.end(), 0);
-        }
+        // if(n <= 2){
+        //     return accumulate(cost.begin(), cost.end(), 0);
+        // }
 
         sort(cost.begin(), cost.end());
 
