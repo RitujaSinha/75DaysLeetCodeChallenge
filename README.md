@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2966-divide-array-into-arrays-with-max-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2966-divide-array-into-arrays-with-max-difference) |
