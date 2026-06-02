@@ -6,19 +6,22 @@ public:
             return;
         }
 
+        for(int i =0; i < nums.size(); i++){
+            if(st.find(nums[i]) == st.end()){
 
-        for(int j =0; j < nums.size(); j++){
-            if(st.find(nums[j]) == st.end()){
-                temp.push_back(nums[j]);
-                st.insert(nums[j]);
+                temp.push_back(nums[i]);
+                st.insert(nums[i]);
 
                 solve(nums, res, temp, st);
+
+
                 temp.pop_back();
-                st.erase(nums[j]);
+                st.erase(nums[i]);
             }
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
+        
         vector<vector<int>> res;
         vector<int> temp;
         unordered_set<int> st;
