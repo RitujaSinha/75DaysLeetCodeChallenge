@@ -1,22 +1,23 @@
 class Solution {
-public:
-    void solve(int start,int k,int n, vector<vector<int>> &res, vector<int> &temp){
+public: 
+    void solve(vector<vector<int>> &res, vector<int>&temp, int st, int k, int n){
         if(k==0){
             res.push_back(temp);
             return;
         }
 
-        if(start > n) return;
+        if(st > n) return;
 
-        temp.push_back(start);
-        solve(start+1, k-1,n,res, temp);
+        temp.push_back(st);
+        solve(res, temp, st+1, k-1, n);
         temp.pop_back();
-        solve(start+1, k,n, res, temp);
+        solve(res, temp, st+1, k, n);
     }
     vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> res;
         vector<int> temp;
-        solve(1,k,n, res, temp);
+        int start =1;
+        solve(res, temp, start, k, n);
         return res;
     }
 };
