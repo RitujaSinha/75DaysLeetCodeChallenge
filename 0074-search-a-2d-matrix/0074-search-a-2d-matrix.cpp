@@ -23,12 +23,12 @@ public:
         while(st <= end){
             int mid = st + (end-st)/2;
 
-            if(matrix[mid][0] > target){
-                end= mid-1;
+            if(matrix[mid][0] <= target && target <= matrix[mid][n-1]){
+                return findTarget(mid, target, matrix);
             } else if(matrix[mid][n-1] < target){
                 st = mid+1;
             } else{
-                return findTarget(mid, target, matrix);
+                end=mid-1;
             }
         }
         return false;
