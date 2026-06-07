@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0292-nim-game) |
@@ -1031,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0258-add-digits) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -1054,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0204-count-primes) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3751-total-waviness-of-numbers-in-range-i) |
