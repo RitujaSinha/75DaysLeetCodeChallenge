@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2540-minimum-common-value](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2540-minimum-common-value) |
@@ -855,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0700-search-in-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -927,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0700-search-in-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Merge Sort
 |  |
