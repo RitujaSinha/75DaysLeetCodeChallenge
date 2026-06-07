@@ -1,19 +1,17 @@
 class Solution {
 public:
-    bool isValid(vector<int>& nums, int k, int maxAllowed){
-        int n = nums.size();
+    bool isValid(vector<int>& nums, int k, int minAllowed){
 
-        int pages = 0;
-        int stud = 1;
+        int stud = 1, pages= 0;
 
-        for(int i = 0;i < n; i++){
-            if(nums[i] > maxAllowed) return false;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] > minAllowed) return false;
 
-            if(pages + nums[i] <= maxAllowed){
-                pages+=nums[i];
+            if(pages+nums[i] <= minAllowed){
+                pages += nums[i];
             } else{
                 stud++;
-                pages= nums[i];
+                pages = nums[i];
             }
         }
         return stud <= k;
@@ -21,18 +19,18 @@ public:
     int splitArray(vector<int>& nums, int k) {
         int n = nums.size();
 
-        int st = *min_element(nums.begin(), nums.end());
+        int st = 1;
         int end = accumulate(nums.begin(), nums.end(), 0);
-
-        int ans = 0;
+        
+        int ans =0;
         while(st <= end){
             int mid = st + (end-st)/2;
 
             if(isValid(nums, k, mid)){
-                ans= mid;
+                ans = mid;
                 end = mid-1;
             } else{
-                st = mid+1;
+                st= mid+1;
             }
         }
         return ans;
