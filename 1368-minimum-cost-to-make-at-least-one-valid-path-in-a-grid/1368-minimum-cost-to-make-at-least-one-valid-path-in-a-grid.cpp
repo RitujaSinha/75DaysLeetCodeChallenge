@@ -4,45 +4,56 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        // priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        // pq.push({0, 0});
-        priority_queue<pair<int, pair<int,int>>, vector<pair<int, pair<int,int>>>, 
-        greater<pair<int, pair<int,int>>>> pq;
+        vector<vector<int>> dist(m, vector<int> (n, INT_MAX));
+
+        priority_queue<pair<int, pair<int, int>>,
+        vector<pair<int, pair<int, int>>>,
+        greater<pair<int, pair<int, int>>>> pq;
 
         pq.push({0, {0, 0}});
-
-        vector<vector<int>> cost(m, vector<int> (n, INT_MAX));   
-        cost[0][0] = 0;
-
-        int delrow[] = {0, 0, 1, -1};
-        int delcol[] = {1, -1, 0, 0};
+        dist[0][0] = 0;
 
         while(!pq.empty()){
-            int c = pq.top().first;
+            int currCost = pq.top().first;
             int row = pq.top().second.first;
             int col = pq.top().second.second;
             pq.pop();
 
-            for(int i = 0; i < 4; i++){
+            int delrow[] = {-1, 0, 1, 0};
+            int delcol[] = {0, 1, 0, -1};
+
+            for(int i =0; i < 4; i++){
                 int nrow = row + delrow[i];
                 int ncol = col + delcol[i];
 
-                if(nrow >= 0 && nrow < m && ncol >= 0 && ncol < n){
+                if(nrow >=0 && nrow < m && ncol >=0 && ncol < n){
 
-                    int newCost = 0;
-                    if(grid[row][col] != i+1){// different direction
-                        newCost = c + 1;
-                    } else{
-                         newCost = c + 0;
+                    int extraCost = 1;
+                    
+                    if(grid[row][col] == 1 && row == nrow && ncol == col+1){
+                        extraCost =0; //right
                     }
 
-                    if(newCost < cost[nrow][ncol]){
-                        cost[nrow][ncol] = newCost;
+                    if(grid[row][col] == 2 && row == nrow && ncol == col-1){
+                        extraCost =0; //left
+                    }
+
+                    if(grid[row][col] == 3 && row+1 == nrow && ncol == col){
+                        extraCost =0; //lower
+                    }
+                    if(grid[row][col] == 4 && row-1 == nrow && ncol == col){
+                        extraCost =0; //upper
+                    }
+
+                    int newCost = extraCost + currCost;
+
+                    if(newCost < dist[nrow][ncol]){
+                        dist[nrow][ncol] = newCost;
                         pq.push({newCost, {nrow, ncol}});
                     }
                 }
             }
         }
-        return cost[m-1][n-1];
+        return dist[m-1][n-1];
     }
 };
