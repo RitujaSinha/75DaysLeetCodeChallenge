@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0349-intersection-of-two-arrays](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0368-largest-divisible-subset) |
@@ -612,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0368-largest-divisible-subset](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
 | [0396-rotate-function](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0396-rotate-function) |
@@ -701,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0542-01-matrix) |
@@ -740,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -773,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
@@ -882,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
@@ -978,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
@@ -1010,6 +1017,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Trie
