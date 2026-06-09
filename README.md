@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-flip-square-submatrix-vertically](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3643-flip-square-submatrix-vertically) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3660-jump-game-ix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3660-jump-game-ix) |
+| [3689-maximum-total-subarray-value-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3689-maximum-total-subarray-value-i) |
 | [3698-split-array-with-minimum-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3698-split-array-with-minimum-difference) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -497,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2966-divide-array-into-arrays-with-max-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2966-divide-array-into-arrays-with-max-difference) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3689-maximum-total-subarray-value-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3689-maximum-total-subarray-value-i) |
 ## Counting Sort
 |  |
 | ------- |
