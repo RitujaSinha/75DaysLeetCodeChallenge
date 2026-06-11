@@ -3,22 +3,22 @@ public:
     map<pair<int, int>, int> mp;
     int MOD = 1e9+7;
 
-    int solve(int n, int parity){
-        if(n == 0){
-            // if(sum % 2 == 1){
-            //     return 1;
-            // }
-            // return 0;
-            return parity==1;
-        }
+    // int solve(int n, int parity){
+    //     if(n == 0){
+    //         // if(sum % 2 == 1){
+    //         //     return 1;
+    //         // }
+    //         // return 0;
+    //         return parity==1;
+    //     }
 
-        if(mp.find({n, parity}) != mp.end()) return mp[{n, parity}];
+    //     if(mp.find({n, parity}) != mp.end()) return mp[{n, parity}];
 
-        int one = solve(n-1, (parity+1) % 2);
-        int two = solve(n-1, (parity+2) % 2);
+    //     int one = solve(n-1, (parity+1) % 2);
+    //     int two = solve(n-1, (parity+2) % 2);
 
-        return mp[{n, parity}] = (one+two) % MOD;
-    }
+    //     return mp[{n, parity}] = (one+two) % MOD;
+    // }
     int assignEdgeWeights(vector<vector<int>>& edges) {
         int V = edges.size()+1;
 
@@ -50,7 +50,13 @@ public:
                 }
             }
         }
+        if(maxEdges == 0) return 0;
         
-        return solve(maxEdges, 0);
+        int result=1;
+        for(int i =1; i <= maxEdges-1; i++){
+            result= (result*2) % MOD;
+        }
+
+        return result;
     }
 };
