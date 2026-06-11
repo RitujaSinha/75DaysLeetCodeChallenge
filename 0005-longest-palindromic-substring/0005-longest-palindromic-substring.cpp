@@ -1,40 +1,32 @@
 class Solution {
 public:
+    bool isPalin(int i, int j, string &s){
+
+        if(i>= j) return true;
+
+        if(s[i] != s[j]){
+            return false;
+        }
+
+        return isPalin(i+1, j-1, s);
+    }
     string longestPalindrome(string s) {
         int n = s.size();
 
-        if(n==1) return s;
+        if(n == 1) return s;
 
-        vector<vector<bool>> t(n, vector<bool> (n, false));
-
-          int idx = -1;
-        for(int i = 0; i < n; i++){
-            t[i][i] = true;
-            idx=i;
-
-        }
-
-        int maxL = 1;
-        for(int L =2; L<= n; L++){
-            for(int i = 0; i + L-1< n; i++){
-                int j =i+L-1;
-
-                if(i+1 == j && L==2){
-                    t[i][j] = (s[i]==s[j]);
-
-                    if(t[i][j]){
-                        maxL = j-i+1;
-                        idx = i;
-                    }
-                } else if(s[i]==s[j] && t[i+1][j-1]){
-                    t[i][j] = (s[i]==s[j] && t[i+1][j-1]);
-                    if(t[i][j]){
-                        maxL = j-i+1;
+        int maxP = 1;
+        int idx = -1;
+        for(int i =0; i < n; i++){ 
+            for(int j = i; j < n; j++){
+                if(isPalin(i, j, s)){
+                    if(maxP <= j-i+1){
+                        maxP = j-i+1;
                         idx = i;
                     }
                 }
             }
         }
-        return s.substr(idx, maxL);
+        return s.substr(idx, maxP);
     }
 };
