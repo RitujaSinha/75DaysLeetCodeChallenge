@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-jump-game-iv](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1345-jump-game-iv) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1380-lucky-numbers-in-a-matrix) |
+| [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1539-kth-missing-positive-number) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1329-sort-the-matrix-diagonally](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1329-sort-the-matrix-diagonally) |
 | [1340-jump-game-v](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1340-jump-game-v) |
+| [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -1069,6 +1071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
