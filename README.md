@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
+| [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
@@ -499,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
 | [1833-maximum-ice-cream-bars](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1833-maximum-ice-cream-bars) |
+| [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
