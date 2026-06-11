@@ -1,25 +1,29 @@
 class Solution {
 public:
-    bool isPalin(int i, int j, string &s){
-        if(i >= j){
-            return true;
-        }
-
-        if(s[i] != s[j]){
-            return false;
-        } 
-        return isPalin(i+1, j-1, s);
-    }
     int countSubstrings(string s) {
         int n = s.size();
 
-        int count = 0;
+        vector<vector<bool>> t(n, vector<bool> (n, false));
 
-        for(int i = 0; i < n; i++){
-            for(int j  =i; j < n; j++){
-                if(isPalin(i, j, s)) count++;
+        int cnt=0;
+        for(int i =0; i < n; i++){
+            t[i][i] = true;
+            cnt++;
+        }
+
+        for(int L =2; L <=n; L++){
+            for(int i = 0; i+L-1< n; i++){
+                int j = i+L-1;
+
+                if(i+1==j){
+                    t[i][j] = (s[i]==s[j]);
+                } else{
+                    t[i][j] = (s[i] ==s[j] && t[i+1][j-1]);
+                }
+
+                if(t[i][j]) cnt++;
             }
         }
-        return count;
+        return cnt;
     }
 };
