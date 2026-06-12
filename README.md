@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1964-find-the-longest-valid-obstacle-course-at-each-position) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1964-find-the-longest-valid-obstacle-course-at-each-position) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2540-minimum-common-value](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2540-minimum-common-value) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -777,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1964-find-the-longest-valid-obstacle-course-at-each-position) |
 ## Segment Tree
 |  |
 | ------- |
