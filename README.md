@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2161-partition-array-according-to-given-pivot) |
+| [2187-minimum-time-to-complete-trips](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1964-find-the-longest-valid-obstacle-course-at-each-position) |
+| [2187-minimum-time-to-complete-trips](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2540-minimum-common-value](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2540-minimum-common-value) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
