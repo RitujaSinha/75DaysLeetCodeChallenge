@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1329-sort-the-matrix-diagonally](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1329-sort-the-matrix-diagonally) |
 | [1340-jump-game-v](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1345-jump-game-iv) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1329-sort-the-matrix-diagonally](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1329-sort-the-matrix-diagonally) |
 | [1340-jump-game-v](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1340-jump-game-v) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
 | [1626-best-team-with-no-conflicts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1626-best-team-with-no-conflicts) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-minimum-increment-to-make-array-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [1010-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1010-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1079-letter-tile-possibilities](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1079-letter-tile-possibilities) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
@@ -621,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0491-non-decreasing-subsequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0491-non-decreasing-subsequences) |
 | [0784-letter-case-permutation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0784-letter-case-permutation) |
 | [0980-unique-paths-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0980-unique-paths-iii) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1601-maximum-number-of-achievable-transfer-requests) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
