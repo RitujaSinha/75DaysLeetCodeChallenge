@@ -568,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0048-rotate-image) |
+| [0060-permutation-sequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
@@ -882,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0060-permutation-sequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
