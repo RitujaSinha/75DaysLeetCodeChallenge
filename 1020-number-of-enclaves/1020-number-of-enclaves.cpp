@@ -1,60 +1,78 @@
 class Solution {
-public:
-    void dfs(int row, int col, vector<vector<int>>& grid, vector<vector<int>>& vis){
-        int m = grid.size();
-        int n = grid[0].size();
+public: 
+    void bfs(int row, int col, vector<vector<int>> &matrix, vector<vector<int>> &vis){
+    int m = matrix.size();
+    int n = matrix[0].size();
 
-        vis[row][col] = 1;
+    queue<pair<int, int>> q;
+    q.push({row, col});
 
-        int delrow[] = {-1, 0, 1, 0};
-        int delcol[] = {0, 1, 0, -1};
+    vis[row][col] = 1;
 
-        for(int i = 0; i < 4; i++){
-            int nrow = row + delrow[i];
-            int ncol = col + delcol[i];
+    while(!q.empty()){
+    int r = q.front().first;
+    int c = q.front().second;
+    q.pop();
 
-            if(nrow >= 0 && ncol >= 0 && nrow < m && ncol < n && grid[nrow][ncol] == 1
-            && !vis[nrow][ncol]){
-                dfs(nrow, ncol, grid, vis);
-            }
-        }
+    int delrow[] = {-1, 0, 1, 0};
+    int delcol[] = {0, 1, 0, -1};
+
+    for(int i = 0; i < 4; i++){
+
+    int nrow = r + delrow[i];
+    int ncol = c + delcol[i];
+
+
+    if(nrow >= 0 && nrow < m && ncol >=0 && ncol < n && matrix[nrow][ncol] == 1 && !vis[nrow][ncol]){
+        q.push({nrow, ncol});
+        vis[nrow][ncol] = 1;
     }
-    int numEnclaves(vector<vector<int>>& grid) {
-        int m = grid.size();
-        int n = grid[0].size();
+    }
+    }
+    }
 
-        vector<vector<int>> vis(m, vector<int> (n, 0));
-        
-        //upper-bottom
-        for(int i = 0; i < n; i++){
-            if(grid[0][i] == 1 && !vis[0][i]){
-                dfs(0, i, grid, vis);
-            }
+    int numEnclaves(vector<vector<int>>& matrix) {
+    int m = matrix.size();
+int n = matrix[0].size();
 
-            if(grid[m-1][i] && !vis[m-1][i]){
-                dfs(m-1, i, grid, vis);
-            }
-        }
+vector<vector<int>> vis(m, vector<int> (n, 0));
 
-        //left-right
-        for(int j = 0; j < m; j++){
-            if(grid[j][0] == 1 && !vis[j][0]){
-                dfs(j, 0, grid, vis);
-            }
+//upper 
+for(int i = 0; i < n; i++){
+if(matrix[0][i] == 1 && !vis[0][i]){
+bfs(0, i, matrix, vis);
+}
+}
 
-            if(grid[j][n-1] && !vis[j][n-1]){
-                dfs(j, n-1, grid, vis);
-            }
-        }
+// right 
+for(int j = 1; j < m; j++){
+if(matrix[j][n-1] == 1 && !vis[j][n-1]){
+bfs(j, n-1, matrix, vis);
+}
+}
 
-        int ans = 0;
-        for(int i = 0; i < m; i++){
-            for(int j = 0; j < n; j++){
-                if(grid[i][j] == 1 && !vis[i][j]){
-                    ans++;
-                }
-            }
-        }
-        return ans;
+//down
+for(int i = n-2; i >=0; i--){
+if(matrix[m-1][i] == 1 && !vis[m-1][i]){
+bfs(m-1, i, matrix, vis);
+}
+}
+
+//left
+for(int i = m-2; i>= 1; i--){
+if(matrix[i][0] ==1 && !vis[i][0]){
+bfs(i, 0, matrix, vis);
+}
+}
+
+int island = 0;
+for(int i = 0; i < m; i++){
+for(int j= 0; j < n; j++){
+if(matrix[i][j] == 1 && vis[i][j] == 0){
+island++;
+}
+}
+}
+return island;
     }
 };
