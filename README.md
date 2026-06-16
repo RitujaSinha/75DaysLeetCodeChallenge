@@ -450,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
+| [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0409-longest-palindrome) |
 | [0516-longest-palindromic-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
 | [0135-candy](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0435-non-overlapping-intervals) |
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
@@ -1022,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [2487-remove-nodes-from-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Union-Find
