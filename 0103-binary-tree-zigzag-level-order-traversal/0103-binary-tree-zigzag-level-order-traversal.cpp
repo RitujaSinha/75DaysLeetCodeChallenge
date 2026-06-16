@@ -19,31 +19,26 @@ public:
         queue<TreeNode* > q;
         q.push(root);
 
-        int cnt = 0;
+        bool leftToRight = true;
         while(!q.empty()){
             int size = q.size();
 
-            vector<int> temp;
-            
-            cnt++;
+            vector<int> temp(size);
 
             for(int i = 0; i < size; i++){
 
                 TreeNode* node = q.front();
                 q.pop();
 
-                temp.push_back(node->val);
+                int idx = leftToRight ? i : size-1-i;
+                temp[idx] = node->val; 
 
                 if(node->left != NULL) q.push(node->left);
                 if(node->right != NULL) q.push(node->right);
             }
 
-            if(cnt % 2 == 1){
-                result.push_back(temp);
-            } else{
-                reverse(temp.begin(), temp.end());
-                result.push_back(temp);
-            }
+            result.push_back(temp);
+            leftToRight = !leftToRight;
         }
         return result;
     }
