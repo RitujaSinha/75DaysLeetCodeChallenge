@@ -709,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0678-valid-parenthesis-string) |
 | [0844-backspace-string-compare](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0844-backspace-string-compare) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
@@ -917,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0700-search-in-a-binary-search-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0700-search-in-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1302-deepest-leaves-sum) |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0684-redundant-connection](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
