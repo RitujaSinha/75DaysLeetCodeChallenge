@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3005-count-elements-with-maximum-frequency](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3093-longest-common-suffix-queries) |
+| [3115-maximum-prime-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3115-maximum-prime-difference) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -607,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [2965-find-missing-and-repeated-values](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2965-find-missing-and-repeated-values) |
+| [3115-maximum-prime-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3115-maximum-prime-difference) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3618-split-array-by-prime-indices](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3618-split-array-by-prime-indices) |
@@ -1152,6 +1154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1492-the-kth-factor-of-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1492-the-kth-factor-of-n) |
 | [2523-closest-prime-numbers-in-range](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2523-closest-prime-numbers-in-range) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [3115-maximum-prime-difference](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3115-maximum-prime-difference) |
 | [3618-split-array-by-prime-indices](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3618-split-array-by-prime-indices) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Queue
