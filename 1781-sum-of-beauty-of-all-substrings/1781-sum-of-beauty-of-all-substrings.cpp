@@ -5,16 +5,18 @@ public:
 
         int beauty = 0;
         for(int i =0; i < n; i++){
-            unordered_map<char, int> mp;
+            vector<int> freq(26, 0);
             for(int j =i; j < n; j++){
-                mp[s[j]]++;
+                freq[s[j]-'a']++;
 
                 int maxi = INT_MIN;
                 int mini = INT_MAX;
 
-                for(auto &it: mp){
-                    maxi = max(maxi, it.second);
-                    mini = min(mini, it.second);
+                for(int k= 0; k < 26; k++){
+                    if(freq[k] > 0){
+                        maxi = max(maxi, freq[k]);
+                        mini = min(mini, freq[k]);
+                    }
                 }
 
                 beauty += (maxi-mini);
