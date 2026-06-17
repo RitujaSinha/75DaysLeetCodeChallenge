@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1079-letter-tile-possibilities](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1079-letter-tile-possibilities) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2833-furthest-point-from-origin](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2833-furthest-point-from-origin) |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1750-minimum-length-of-string-after-deleting-similar-ends](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1750-minimum-length-of-string-after-deleting-similar-ends) |
 | [1768-merge-strings-alternately](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1768-merge-strings-alternately) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
