@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2007-find-original-array-from-doubled-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2007-find-original-array-from-doubled-array) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2104-sum-of-subarray-ranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2104-sum-of-subarray-ranges) |
 | [2126-destroying-asteroids](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -726,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2104-sum-of-subarray-ranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2104-sum-of-subarray-ranges) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2487-remove-nodes-from-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
@@ -1034,6 +1036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Union-Find
 |  |
