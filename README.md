@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0409-longest-palindrome) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
 | [0491-non-decreasing-subsequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0491-non-decreasing-subsequences) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0721-accounts-merge) |
@@ -913,6 +914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
 | [0876-middle-of-the-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -1109,6 +1111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
+| [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1203,4 +1206,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
