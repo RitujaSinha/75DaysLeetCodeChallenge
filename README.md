@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1710-maximum-units-on-a-truck) |
+| [1732-find-the-highest-altitude](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1732-find-the-highest-altitude) |
 | [1748-sum-of-unique-elements](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1748-sum-of-unique-elements) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -506,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
+| [1732-find-the-highest-altitude](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [2574-left-and-right-sum-differences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2574-left-and-right-sum-differences) |
 | [2640-find-the-score-of-all-prefixes-of-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2640-find-the-score-of-all-prefixes-of-an-array) |
