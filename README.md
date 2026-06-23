@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0268-missing-number) |
@@ -1063,6 +1064,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
+| [0239-sliding-window-maximum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0239-sliding-window-maximum) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Monotonic Stack
@@ -1155,6 +1157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0239-sliding-window-maximum) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [0743-network-delay-time](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
@@ -1191,6 +1194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
 |  |
@@ -1226,4 +1230,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
