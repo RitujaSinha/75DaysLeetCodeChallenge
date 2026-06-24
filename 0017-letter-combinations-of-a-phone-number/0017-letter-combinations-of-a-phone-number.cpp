@@ -1,14 +1,14 @@
 class Solution {
 public:
-    void solve(int i, unordered_map<char, string> &mpp, vector<string> &ans, string &temp, string &digits){
-        if(i== digits.size()){
+    void solve(int i, vector<string> &ans, string &temp, string &digits, unordered_map<char, string> &mpp){
+        if(i == digits.size()){
             ans.push_back(temp);
             return;
         }
 
         for(auto it: mpp[digits[i]]){
             temp.push_back(it);
-            solve(i+1, mpp, ans, temp, digits);
+            solve(i+1, ans, temp, digits, mpp);
             temp.pop_back();
         }
     }
@@ -26,7 +26,7 @@ public:
 
         vector<string> ans;
         string temp = "";
-        solve(0, mpp, ans, temp, digits);
+        solve(0, ans, temp, digits, mpp);
         return ans;
     }
 };
