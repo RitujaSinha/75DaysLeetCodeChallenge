@@ -620,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1492-the-kth-factor-of-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1492-the-kth-factor-of-n) |
+| [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2119-a-number-after-a-double-reversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2119-a-number-after-a-double-reversal) |
 | [2523-closest-prime-numbers-in-range](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2523-closest-prime-numbers-in-range) |
@@ -726,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1340-jump-game-v](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1340-jump-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1626-best-team-with-no-conflicts](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1626-best-team-with-no-conflicts) |
+| [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -861,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
+| [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Breadth-First Search
