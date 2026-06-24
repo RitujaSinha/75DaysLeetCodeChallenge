@@ -5,12 +5,15 @@ public:
 
         vector<int> t(n, 1);
 
-        int el = nums[0];
-        int cnt = 0;
+        unordered_map<int,int> mpp;
+        // int el = nums[0];
+        // int cnt = 0;
         for(int num: nums){
-            if(el == num) cnt++;
+            // if(el == num) cnt++;
+            mpp[num]++;
         }
-        if(cnt == n) return false;
+        // if(cnt == n) return false;
+        if(mpp.size() < 3) return false;
 
         if(nums[n-1] > nums[n-2] && nums[n-2] > nums[n-3]) return true; 
 
