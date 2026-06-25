@@ -678,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1601-maximum-number-of-achievable-transfer-requests) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2305-fair-distribution-of-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2305-fair-distribution-of-cookies) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
