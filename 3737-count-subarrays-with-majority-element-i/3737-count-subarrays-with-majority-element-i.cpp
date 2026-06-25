@@ -3,15 +3,17 @@ public:
     int countMajoritySubarrays(vector<int>& nums, int target) {
         int n = nums.size();
 
-        int ans =0;
-        for(int i =0; i < n; i++){
-            int freq =0;
+        int count  = 0;
+        for(int i = 0; i < n; i++){
+            unordered_map<int, int> mpp;
             for(int j = i; j < n; j++){
-                if(nums[j] == target) freq++;
+                mpp[nums[j]]++;
 
-                if(freq > ((j-i+1)/2)) ans++;
+            
+                if(mpp[target] > (j-i+1)/2) count++;
+            
             }
         }
-        return ans;
+        return count;
     }
 };
