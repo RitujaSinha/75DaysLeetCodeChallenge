@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0485-max-consecutive-ones) |
 | [0491-non-decreasing-subsequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0491-non-decreasing-subsequences) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0367-valid-perfect-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0778-swim-in-rising-water) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -870,12 +873,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1964-find-the-longest-valid-obstacle-course-at-each-position) |
 ## Segment Tree
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Combinatorics
@@ -1085,6 +1090,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0148-sort-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0148-sort-list) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Sliding Window
 |  |
@@ -1267,4 +1273,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
