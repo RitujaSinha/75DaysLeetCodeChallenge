@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-lucky-numbers-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1424-diagonal-traverse-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1424-diagonal-traverse-ii) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1539-kth-missing-positive-number) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1345-jump-game-iv](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1345-jump-game-iv) |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -518,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1732-find-the-highest-altitude](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [2574-left-and-right-sum-differences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2574-left-and-right-sum-differences) |
@@ -622,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0788-rotated-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0788-rotated-digits) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1492-the-kth-factor-of-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1492-the-kth-factor-of-n) |
 | [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
@@ -667,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-letter-case-permutation](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0784-letter-case-permutation) |
 | [0980-unique-paths-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0980-unique-paths-iii) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1601-maximum-number-of-achievable-transfer-requests) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
