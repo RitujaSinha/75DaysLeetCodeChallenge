@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0997-find-the-town-judge](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1010-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1010-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1019-next-greater-node-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
 | [1020-number-of-enclaves](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1020-number-of-enclaves) |
 | [1029-two-city-scheduling](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1029-two-city-scheduling) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
@@ -788,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0844-backspace-string-compare) |
 | [0907-sum-of-subarray-minimums](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0907-sum-of-subarray-minimums) |
 | [0946-validate-stack-sequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0946-validate-stack-sequences) |
+| [1019-next-greater-node-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
 | [1441-build-an-array-with-stack-operations](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1441-build-an-array-with-stack-operations) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1944-number-of-visible-people-in-a-queue) |
@@ -978,6 +980,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0328-odd-even-linked-list) |
 | [0460-lfu-cache](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0460-lfu-cache) |
 | [0876-middle-of-the-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0876-middle-of-the-linked-list) |
+| [1019-next-greater-node-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2181-merge-nodes-in-between-zeros) |
@@ -1124,6 +1127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0907-sum-of-subarray-minimums) |
+| [1019-next-greater-node-in-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2104-sum-of-subarray-ranges](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
