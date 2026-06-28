@@ -4,20 +4,19 @@ public:
         int n = asteroids.size();
 
         stack<int> st;
+
         for(int i = 0; i < n; i++){
             if(asteroids[i] > 0){
                 st.push(asteroids[i]);
             } else{
+
                 while(!st.empty() && st.top() > 0 && st.top() < abs(asteroids[i])){
                     st.pop();
                 }
 
-                if(!st.empty() && st.top() == abs(asteroids[i])){
+                if(!st.empty() && abs(asteroids[i]) == st.top()){
                     st.pop();
-                    continue;
-                }
-
-                if(st.empty() || st.top() < 0){
+                } else if(st.empty() || st.top() < 0){
                     st.push(asteroids[i]);
                 }
             }
