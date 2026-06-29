@@ -7,7 +7,7 @@ public:
         int l = 0, r=0;
         while(r< n){
             
-            while(zeros > k){
+            if(zeros > k){
                 if(nums[l] == 0){
                     zeros--;
                 }
