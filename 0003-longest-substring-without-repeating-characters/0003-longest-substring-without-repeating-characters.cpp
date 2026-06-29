@@ -3,22 +3,17 @@ public:
     int lengthOfLongestSubstring(string s) {
         int n = s.size();
 
-        vector<int> freq(256, 0);
-
         int maxL = 0;
-        int l = 0, r= 0;
-        while(r < n){
-            
-            while(freq[s[r]] > 0){
-                freq[s[l]]--;
-                l++;
+        for(int i = 0; i < n; i++){
+            vector<int> hash(256, 0);
+
+            for(int j = i; j < n; j++){
+                if(hash[s[j]] > 0){
+                    break;
+                }
+                hash[s[j]]++;
+                maxL = max(maxL, j-i+1);
             }
-
-            freq[s[r]]++;
-
-            maxL = max(maxL, r-l+1);
-
-            r++;
         }
         return maxL;
     }
