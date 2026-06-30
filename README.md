@@ -539,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [2063-vowels-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2063-vowels-of-all-substrings) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2390-removing-stars-from-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2390-removing-stars-from-a-string) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -672,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1492-the-kth-factor-of-n](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1492-the-kth-factor-of-n) |
 | [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
+| [2063-vowels-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2063-vowels-of-all-substrings) |
 | [2119-a-number-after-a-double-reversal](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2119-a-number-after-a-double-reversal) |
 | [2523-closest-prime-numbers-in-range](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2523-closest-prime-numbers-in-range) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
@@ -791,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1871-jump-game-vii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2063-vowels-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2063-vowels-of-all-substrings) |
 | [2305-fair-distribution-of-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2305-fair-distribution-of-cookies) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
@@ -938,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [1641-count-sorted-vowel-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1641-count-sorted-vowel-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1863-sum-of-all-subset-xor-totals) |
+| [2063-vowels-of-all-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2063-vowels-of-all-substrings) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Breadth-First Search
 |  |
