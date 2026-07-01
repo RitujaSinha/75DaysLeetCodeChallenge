@@ -1,23 +1,22 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        int n = intervals.size();
-
+        int n  = intervals.size();
         vector<vector<int>> result;
 
-        int i=0;
-        while(i < n && intervals[i][1] < newInterval[0]){ //Left Most section
+        int i = 0;
+
+        while(i < n && intervals[i][1] < newInterval[0]){ //left section
             result.push_back(intervals[i]);
             i++;
         }
 
         while(i < n && intervals[i][0] <= newInterval[1]){
-
-            newInterval[0] = min(newInterval[0], intervals[i][0]);//Start Point
-            newInterval[1] = max(newInterval[1], intervals[i][1]);//End Point
-
+            newInterval[0] = min(intervals[i][0], newInterval[0]);
+            newInterval[1] = max(intervals[i][1], newInterval[1]);
             i++;
         }
+
         result.push_back(newInterval);
 
         while(i < n){
