@@ -1,27 +1,25 @@
 class Solution {
 public:
-
-    static bool comp(vector<int> &v1, vector<int> &v2){
-        return v1[1] < v2[1];
+    static bool comp(vector<int> &a, vector<int> &b){
+        if(a[1] == b[1]){
+            return a[0] < b[0];
+        }
+        return a[1] < b[1];
     }
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        //prerequistics - N meeting in one Room (striver's Greedy playlist)
-        //Inverse of N meeting in one Room
-
-
         int n = intervals.size();
-
         sort(intervals.begin(), intervals.end(), comp);
 
-        int cnt =1;
-        int lastEndTime = intervals[0][1];
+        int freeTime  = intervals[0][1];
 
-        for(int i =1; i < n; i++){
-            if(intervals[i][0] >= lastEndTime){
-                cnt++;
-                lastEndTime = intervals[i][1];
+        int ans = 0;
+        for(int i = 1; i < n; i++){
+            if(intervals[i][0] < freeTime){
+                ans++;
+            } else{
+                freeTime = intervals[i][1];
             }
-        }
-        return n-cnt;
+        }   
+        return ans;
     }
 };
