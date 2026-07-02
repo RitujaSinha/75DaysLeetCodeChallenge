@@ -3,35 +3,44 @@ public:
     int swimInWater(vector<vector<int>>& grid) {
         int n = grid.size();
         
-        queue<pair<pair<int, int>, int>> q;
-        vector<vector<int>> dist(n, vector<int> (n, INT_MAX));
 
-        q.push({{0, 0}, grid[0][0]});
-        dist[0][0] = grid[0][0];
+        vector<vector<int>> minTime(n, vector<int> (n, INT_MAX));
 
-        while(!q.empty()){
-            int r = q.front().first.first;
-            int c = q.front().first.second;
-            int time = q.front().second;
-            q.pop();
+        priority_queue<pair<int, pair<int, int>>,
+        vector<pair<int, pair<int, int>>>,
+        greater<pair<int, pair<int, int>>>> pq;
 
-            int delrow[] = {-1, 0, 1, 0};
-            int delcol[] = {0, 1, 0, -1};
+        pq.push({grid[0][0],{0, 0}});
+        minTime[0][0] = grid[0][0];
 
-            for(int i =0; i < 4; i++){
+        int delrow[] = {-1, 0, 1, 0};
+        int delcol[] = {0, 1, 0, -1};
+
+        while(!pq.empty()){
+            int time = pq.top().first;
+            int r = pq.top().second.first;
+            int c = pq.top().second.second;
+            pq.pop();
+
+            if(time > minTime[r][c]) continue;
+
+            if(r == n-1 && c == n-1) return time;
+
+            for(int i =0; i <4; i++){
                 int nrow = r + delrow[i];
                 int ncol = c + delcol[i];
 
-                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < n){
-                    int newTime = max(time, grid[nrow][ncol]);
+                if(nrow >=0 && ncol < n && ncol >=0 && nrow < n){
 
-                    if(newTime < dist[nrow][ncol]){
-                        dist[nrow][ncol] = newTime;
-                        q.push({{nrow, ncol}, newTime});
+                    int newTime =max(time, grid[nrow][ncol]);
+
+                    if(newTime < minTime[nrow][ncol]){
+                        minTime[nrow][ncol] = newTime;
+                        pq.push({newTime, {nrow, ncol}});
                     }
                 }
             }
         }
-        return dist[n-1][n-1];
+        return -1;
     }
 };
