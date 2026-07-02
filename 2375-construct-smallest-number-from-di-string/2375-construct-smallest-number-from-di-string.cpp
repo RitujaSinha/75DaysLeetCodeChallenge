@@ -1,52 +1,56 @@
 class Solution {
 public:
-    void solve(int i, string &pattern, vector<string> &validString, string &temp, vector<int> &used){
-        if(i==pattern.size()){
-            if(pattern.size()+1 == temp.size()){
-                validString.push_back(temp);
-            }
+    void solve(int idx, string &pattern, vector<string> &res, string &temp, vector<int> &used){
+        if(idx == pattern.size()){
+            if(temp.size() == pattern.size()+1) res.push_back(temp);
             return;
         }
 
-        for(int num = '1'; num <= '9'; num++){
-            if(used[num-'0']) continue;
-            
+        for(char ch = '1'; ch <= '9'; ch++){
+            if(used[ch-'0']) continue;
+
             if(temp.empty()){
-                temp.push_back(num);
-                used[num-'0'] = 1;
+                temp.push_back(ch);
+                used[ch-'0'] = 1;
 
-                solve(i, pattern, validString, temp, used);
+                solve(idx, pattern, res, temp,used);
+
                 temp.pop_back();
-                used[num-'0'] = 0;
-            }
-            else {
-                if(pattern[i] == 'I' && num > temp.back()){
-                    temp.push_back(num);
-                    used[num-'0'] = 1;
+                used[ch-'0'] = 0;
+            } else{
+                if(pattern[idx] == 'I'){
+                    if(temp.back() < ch){
+                        temp.push_back(ch);
+                        used[ch-'0'] = 1;
 
-                    solve(i+1, pattern, validString, temp, used);
-                    temp.pop_back();
-                    used[num-'0'] = 0;
-                } else if(pattern[i] == 'D' && num < temp.back()){
-                    temp.push_back(num);
-                    used[num-'0'] = 1;
+                        solve(idx+1,pattern, res, temp,used);
 
-                    solve(i+1, pattern, validString, temp, used);
-                    temp.pop_back();
-                    used[num-'0'] = 0;
+                        temp.pop_back();
+                        used[ch-'0'] = 0;
+                    }
+                } else{
+                    if(temp.back() > ch){
+                        temp.push_back(ch);
+                        used[ch-'0'] = 1;
+
+                        solve(idx+1,pattern, res, temp,used);
+
+                        temp.pop_back();
+                        used[ch-'0'] = 0;
+                    }
                 }
             }
         }
     }
     string smallestNumber(string pattern) {
         
-        vector<string> validString;
-        string temp ="";
-        vector<int> used(10, 0);
-        solve(0, pattern, validString, temp, used);
+        vector<string> res;
+        string temp = "";
 
-        
-        sort(validString.begin(), validString.end());
-        return validString[0];
+        vector<int> used(10, 0); 
+        solve(0, pattern, res, temp, used);
+
+        sort(res.begin(), res.end());
+        return res[0];
     }
 };
