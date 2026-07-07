@@ -1,21 +1,23 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-        int n = nums.size();
-
-        int prevPrev = 0; //no house -> no money
-        int prev = nums[0]; //just rob the first
-
-        for(int i = 2; i <= n; i++){
-
-            int robb = nums[i-1] + prevPrev;
-            int skip = prev;
-
-            int curr = max(robb, skip);
-
-            prevPrev = prev;
-            prev = curr;
+    int n;
+    int t[101];
+    int solve(int i, vector<int> &nums){
+        if(i >= nums.size()){
+            return 0;
         }
-        return prev;
+
+        if(t[i] != -1) return t[i];
+
+        int robb = nums[i] + solve(i+2, nums);
+        int skip = solve(i+1, nums);
+
+        return t[i] = max(skip, robb);
+    }
+    int rob(vector<int>& nums) {
+        n = nums.size();
+
+        memset(t, -1, sizeof(t));
+        return solve(0, nums);
     }
 };
