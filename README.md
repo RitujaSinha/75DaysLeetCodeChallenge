@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2553-separate-the-digits-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2553-separate-the-digits-in-an-array) |
 | [2574-left-and-right-sum-differences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2574-left-and-right-sum-differences) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2597-the-number-of-beautiful-subsets) |
+| [2603-collect-coins-in-a-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2603-collect-coins-in-a-tree) |
 | [2640-find-the-score-of-all-prefixes-of-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2640-find-the-score-of-all-prefixes-of-an-array) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2683-neighboring-bitwise-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2683-neighboring-bitwise-xor) |
@@ -1091,6 +1092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+| [2603-collect-coins-in-a-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2603-collect-coins-in-a-tree) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Depth-First Search
 |  |
@@ -1254,6 +1256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1971-find-if-path-exists-in-graph](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
+| [2603-collect-coins-in-a-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2603-collect-coins-in-a-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2685-count-the-number-of-complete-components) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
@@ -1278,6 +1281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0802-find-eventual-safe-states](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2603-collect-coins-in-a-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2603-collect-coins-in-a-tree) |
 | [3620-network-recovery-pathways](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3620-network-recovery-pathways) |
 ## Trie
 |  |
