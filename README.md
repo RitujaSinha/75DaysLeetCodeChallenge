@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0491-non-decreasing-subsequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0491-non-decreasing-subsequences) |
 | [0493-reverse-pairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
@@ -693,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0788-rotated-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0788-rotated-digits) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1344-angle-between-hands-of-a-clock) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0435-non-overlapping-intervals) |
+| [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0542-01-matrix) |
@@ -1074,6 +1077,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [2487-remove-nodes-from-linked-list](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Tree
 |  |
@@ -1367,6 +1371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0292-nim-game) |
+| [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 ## Enumeration
 |  |
 | ------- |
