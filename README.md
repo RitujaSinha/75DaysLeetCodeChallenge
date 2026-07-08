@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0875-koko-eating-bananas) |
+| [0877-stone-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0881-boats-to-save-people) |
 | [0907-sum-of-subarray-minimums](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0907-sum-of-subarray-minimums) |
 | [0909-snakes-and-ladders](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0909-snakes-and-ladders) |
@@ -696,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0396-rotate-function) |
 | [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0788-rotated-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1442-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1442-count-triplets-that-can-form-two-arrays-of-equal-xor) |
@@ -809,6 +811,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/1048-longest-string-chain) |
@@ -1372,6 +1375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0292-nim-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 ## Enumeration
 |  |
 | ------- |
