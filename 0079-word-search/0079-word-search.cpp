@@ -1,46 +1,42 @@
 class Solution {
 public:
-    bool find(vector<vector<char>>& grid, int i, int j, int idx, string word){
-        int m = grid.size();
-        int n = grid[0].size();
+    int m, n;
+    bool checkWord(int row, int col,int idx, vector<vector<char>>& board, string word){
 
-        if(idx == word.size()-1){
+        if(idx == word.size()){
             return true;
         }
 
-        if(i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '$') return false;
-
-        if(grid[i][j] != word[idx]) return false;
-
-        char temp = grid[i][j];
-        grid[i][j] = '$';
+        char temp = board[row][col];
+        board[row][col] = '#';
 
         int delrow[] = {-1, 0, 1, 0};
         int delcol[] = {0, 1, 0, -1};
 
-        for(int dir = 0; dir < 4; dir++){
-            int nrow = i + delrow[dir];
-            int ncol = j + delcol[dir];
+        for(int i =0; i < 4; i++){
 
-            if(nrow >= 0 && nrow < m && ncol >= 0 && ncol < n){
-                if(grid[nrow][ncol] == word[idx+1]){
-                    if(find(grid, nrow, ncol, idx+1, word)) return true;
+            int nrow = row + delrow[i];
+            int ncol = col + delcol[i];
+
+            if(nrow >=0 && nrow < m && ncol >=0 && ncol < n){
+                if(board[nrow][ncol] == word[idx]){
+                    if(checkWord(nrow, ncol, idx+1, board, word)) return true;
                 }
             }
-        } 
+        }
 
-        grid[i][j] = temp;
+        board[row][col] = temp;
 
         return false;
     }
     bool exist(vector<vector<char>>& board, string word) {
-        int m = board.size();
-        int n = board[0].size();
+        m = board.size();
+        n = board[0].size();
 
-        for(int i =0; i < m; i++){
+        for(int i = 0; i < m; i++){
             for(int j =0; j < n; j++){
-                if(board[i][j] == word[0] && find(board, i, j,0, word)){
-                    return true;
+                if(board[i][j] == word[0]){
+                    if(checkWord(i, j,1, board, word)) return true;
                 }
             }
         }
