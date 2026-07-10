@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0216-combination-sum-iii) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0387-first-unique-character-in-a-string) |
@@ -668,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0216-combination-sum-iii) |
 | [0491-non-decreasing-subsequences](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
@@ -917,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1319,6 +1323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0692-top-k-frequent-words](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0692-top-k-frequent-words) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/3093-longest-common-suffix-queries) |
