@@ -1,28 +1,22 @@
 class Solution {
 public:
-    bool solve(int p1, int p2, int i,int j,bool flag, vector<int> &nums){
-        if(i > j) return p1>= p2;
+    int solve(int i, int j, vector<int> &nums){
+        if(i > j) return 0;
 
+        if(i == j) return nums[i];
 
-        int scorep1First = false, scorep1End = false;
-        int scorep2First = false, scorep2End = false;
-        int best1 = false, best2 = false;
-        if(flag){
-            scorep1First = solve(p1+nums[i], p2, i+1, j, !flag, nums);
-            scorep1End = solve(p1+nums[j], p2, i, j-1, !flag, nums);
+        int first = nums[i] + min(solve(i+1, j-1, nums), solve(i+2, j, nums));
+        int last = nums[j] + min(solve(i+1, j-1, nums), solve(i, j-2, nums));
 
-            best1  =scorep1First || scorep1End;
-            return best1;
-        } 
-
-            scorep2First = solve(p1, p2+nums[i], i+1, j, !flag, nums);
-            scorep2End = solve(p1, p2+nums[j], i, j-1, !flag, nums);
-
-            best2  = scorep2First && scorep2End;
-            return best2;
-        
+        return max(first, last);
     }
     bool predictTheWinner(vector<int>& nums) {
-        return solve(0, 0, 0,nums.size()-1,1, nums);
+        int n = nums.size();
+
+        int sm = accumulate(nums.begin(), nums.end(), 0);
+
+        int p1 = solve(0, n-1, nums);
+        int p2 = sm-p1;
+        return p1 >= p2;
     }
 };
