@@ -1,18 +1,19 @@
 class Solution {
 class DisjointSet{
 public:
-vector<int> parent, rank, size;
 
-DisjointSet(int n){
-    rank.resize(n+1, 0);
-    parent.resize(n+1);
-    size.resize(n+1);
+    vector<int> parent, size;
 
-    for(int i = 0; i <=n; i++){
-        parent[i] = i;
-        size[i] = 1;
+    DisjointSet(int n){
+        parent.resize(n+1, 0);
+        size.resize(n+1);
+
+        for(int i = 0; i <= n; i++){
+            parent[i] =i;
+            size[i] = 1;
+        }
     }
-}
+
     int findUPar(int node){
         if(node == parent[node]){
             return node;
@@ -29,7 +30,7 @@ DisjointSet(int n){
         if(size[ulp_u] < size[ulp_v]){
             parent[ulp_u] = ulp_v;
             size[ulp_v] += size[ulp_u];
-        } else {
+        } else{
             parent[ulp_v] = ulp_u;
             size[ulp_u] += size[ulp_v];
         }
@@ -45,32 +46,33 @@ public:
             adj[it[1]].push_back(it[0]);
         }
 
+        for(int i = 0; i < edges.size(); i++){
+            ds.unionBySize(edges[i][0], edges[i][1]);
+        }
+
+        vector<vector<int>> par(n);
+
         for(int i = 0; i < n; i++){
-            for(auto it: adj[i]){
-                ds.unionBySize(i, it);
+            par[ds.findUPar(i)].push_back(i);
+        }
+        
+
+        int ans = 0;
+        for(auto parent: par){
+            if (parent.empty()) {
+                continue;
             }
-        }
+            int s = parent.size();
+            bool complete = true;
 
-        unordered_map<int, int> nodeCount;//node count
-        for(int i = 0; i < n; i++){
-            int p = ds.findUPar(i);
-            nodeCount[p]++;
-        }
+            for(auto it: parent){
+                if(adj[it].size() != s-1){
+                    complete = false; //ek bhi sahi nhi hua to pura compoent hi complete nhi hoga
+                    break;
+                }
+            }
 
-        unordered_map<int, int> edgeCount;//edge count
-        for(auto it: edges){
-            int p = ds.findUPar(it[0]);
-            edgeCount[p]++;
-        }
-
-        int ans=0;
-        for(auto it: nodeCount){
-            int parent = it.first;
-            int nodes = it.second;
-
-            int edges = edgeCount[parent];
-
-            if(edges == (nodes *(nodes-1)/2)) ans++;
+            if(complete) ans++;
         }
         return ans;
     }
