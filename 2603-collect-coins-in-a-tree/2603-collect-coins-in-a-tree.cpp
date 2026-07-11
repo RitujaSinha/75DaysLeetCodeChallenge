@@ -4,7 +4,8 @@ public:
         int n = coins.size();
 
         vector<vector<int>> adj(n);
-        vector<int> degree(n, 0);
+
+        vector<int> degree(n);
         for(auto it: edges){
             adj[it[0]].push_back(it[1]);
             adj[it[1]].push_back(it[0]);
@@ -13,32 +14,34 @@ public:
             degree[it[1]]++;
         }
 
-        int remainingEdges = edges.size();
+        int edge = edges.size();
 
         queue<int> q;
-        for(int i =0; i < n; i++){
-            if(degree[i] == 1 && coins[i]==0){
+
+        for(int i = 0; i < n; i++){
+            if(degree[i] == 1 && coins[i] == 0){
                 q.push(i);
             }
         }
 
-        //Round-1
         while(!q.empty()){
-            int node = q.front();
-            q.pop();
 
-            degree[node] = 0;
+                int node = q.front();
+                q.pop();
 
-            for(auto it: adj[node]){
-                if(degree[it] > 0){
-                degree[it]--;
-                remainingEdges--;
+                if(degree[node] == 0) continue;
+                degree[node] = 0;
 
-                if(degree[it] == 1 && coins[it] == 0){
-                    q.push(it);
+                for(auto it: adj[node]){
+                    if(degree[it] > 0){
+                    degree[it]--;
+                    edge--;
+
+                    if(degree[it] == 1 && coins[it] == 0){
+                        q.push(it);
+                    }
+                    }
                 }
-                }
-            }
         }
 
         for(int i = 0; i < n; i++){
@@ -47,28 +50,31 @@ public:
             }
         }
 
-        for(int round = 0; round < 2; round++){
-            int size = q.size();
+        for(int level = 0; level < 2; level++){
+                int size = q.size();
 
-            while(size--){
+         while(size--){
                 int node = q.front();
                 q.pop();
 
+                if(degree[node] == 0) continue;
                 degree[node] = 0;
 
+
                 for(auto it: adj[node]){
-                    if(degree[it] > 0){
-                        degree[it]--;
-                        remainingEdges--;
+                     if(degree[it] > 0){
+                    degree[it]--;
+                    edge--;
 
-                        if(degree[it] == 1){
-                            q.push(it);
-                        }
+                    if(degree[it] == 1){
+                        q.push(it);
                     }
+                     }
                 }
-            }
+            
         }
-
-         return remainingEdges * 2;
+        }
+        return 2 * edge;
     }
+
 };
