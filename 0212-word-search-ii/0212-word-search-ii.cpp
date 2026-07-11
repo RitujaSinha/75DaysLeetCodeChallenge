@@ -3,8 +3,6 @@ public:
     vector<string> result;
     int m, n;
 
-    vector<vector<int>> directions{{1, 0} , {-1, 0}, {0,1}, {0, -1}};
-
     struct trieNode{
         bool endOfWord;
         string word;
@@ -13,37 +11,40 @@ public:
 
     trieNode* getNode(){
         trieNode* newNode = new trieNode();
-        newNode->endOfWord = false;
 
-        for(int i =0; i < 26; i++){
-            newNode->children[i] = NULL;
-        }
+        newNode->endOfWord = false;
         newNode->word = "";
 
+        for(int i  =0; i < 26; i++){
+            newNode->children[i] = NULL;
+        }
         return newNode;
     }
 
     void insert(trieNode* root, string word){
-
-        trieNode* crawler = root;
+        trieNode* node = root;
 
         for(int i = 0; i < word.size(); i++){
-            char ch = word[i];
-
-            if(crawler->children[ch-'a'] == NULL){
-                crawler->children[ch-'a'] = getNode();
+            char ch  =word[i];
+            if(node->children[ch-'a'] == NULL){
+                node->children[ch-'a'] = getNode();
             }
-            crawler=  crawler->children[ch-'a'];
-        }
 
-        crawler->endOfWord = true;
-        crawler->word = word;
+            node = node->children[ch-'a'];
+        } 
+        node->endOfWord = true;
+        node->word = word;
     }
 
-    void dfs(vector<vector<char>> &board, int i, int j, trieNode* root){
-        if(i < 0 || j < 0 || i >= m || j >= n || board[i][j] == '$' || root->children[board[i][j]-'a'] == NULL){
-            return;
-        }
+    void dfs(vector<vector<char>>& board, int i, int j, trieNode* root){
+
+         int delrow[] = {-1, 0, 1, 0};
+        int delcol[] = {0, 1, 0, -1};
+
+
+        if(i < 0 || j < 0 || i>= m || j >= n) return;
+
+        if(board[i][j] == '$' || root->children[board[i][j]-'a'] == NULL) return;
 
         root = root->children[board[i][j]-'a'];
 
@@ -55,16 +56,17 @@ public:
         char temp = board[i][j];
         board[i][j] = '$';
 
-        for(vector<int> &dir : directions){
-            int new_i = i + dir[0];
-            int new_j = j + dir[1];
 
-            dfs(board, new_i, new_j, root);
+        for(int  dir =0; dir < 4; dir++){
+            int nrow = i + delrow[dir];
+            int ncol = j + delcol[dir];
+
+                
+                dfs(board, nrow, ncol, root);
         }
 
         board[i][j] = temp;
     }
-
 
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
         m = board.size();
@@ -76,8 +78,8 @@ public:
             insert(root, word);
         }
 
-        for(int i =0; i < m; i++){
-            for(int j =0; j < n; j++){
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
                 char ch = board[i][j];
 
                 if(root->children[ch-'a'] != NULL){
