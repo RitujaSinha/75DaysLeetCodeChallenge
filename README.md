@@ -364,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
 | [0696-count-binary-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0696-count-binary-substrings) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0409-longest-palindrome) |
+| [0443-string-compression](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/RitujaSinha/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
