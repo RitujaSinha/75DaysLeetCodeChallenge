@@ -1,22 +1,21 @@
 class Solution {
 class DisjointSet{
 public:
-vector<int> parent, rank, size;
+    vector<int> parent, size;
 
-DisjointSet(int n){
-    rank.resize(n+1, 0);
-    parent.resize(n+1);
-    size.resize(n+1);
+    DisjointSet(int n){
+        parent.resize(n+1, 0);
+        size.resize(n+1);
 
-    for(int i = 0; i <=n; i++){
-        parent[i] = i;
-        size[i] = 1;
-    }
-}
-    int findUPar(int node){
-        if(node == parent[node]){
-            return node;
+        for(int i=0; i <= n; i++){
+            parent[i] = i;
+            size[i] =1;
         }
+    }
+
+    int findUPar(int node){
+        if(node == parent[node]) return node;
+
         return parent[node] = findUPar(parent[node]);
     }
 
@@ -29,27 +28,25 @@ DisjointSet(int n){
         if(size[ulp_u] < size[ulp_v]){
             parent[ulp_u] = ulp_v;
             size[ulp_v] += size[ulp_u];
-        } else {
+        } else{
             parent[ulp_v] = ulp_u;
             size[ulp_u] += size[ulp_v];
         }
     }
 };
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>>& details) {
-        int n = details.size();
-
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        int n = accounts.size();
         DisjointSet ds(n);
+
         unordered_map<string, int> mapMailNode;
-
         for(int i = 0; i < n; i++){
-            for(int j = 1; j < details[i].size(); j++){
-                string mail = details[i][j];
-
-                if(mapMailNode.find(mail) == mapMailNode.end()){// nah exist krta hai to dal do
-                    mapMailNode[mail] = i;
+            for(int j = 1; j < accounts[i].size(); j++){
+                
+                if(mapMailNode.find(accounts[i][j]) == mapMailNode.end()){
+                    mapMailNode[accounts[i][j]] = i;
                 } else{
-                    ds.unionBySize(i, mapMailNode[mail]);
+                    ds.unionBySize(i, mapMailNode[accounts[i][j]]);
                 }
             }
         }
@@ -62,19 +59,21 @@ public:
         }
 
         vector<vector<string>> ans;
-        for(int i = 0; i< n; i++){
+
+        for(int i = 0; i < n; i++){
             if(mergedMail[i].size() == 0) continue;
 
             sort(mergedMail[i].begin(), mergedMail[i].end());
-
             vector<string> temp;
-            temp.push_back(details[i][0]);
 
+            temp.push_back(accounts[i][0]);
             for(auto it: mergedMail[i]){
                 temp.push_back(it);
             }
+            
             ans.push_back(temp);
         }
         return ans;
+
     }
 };
